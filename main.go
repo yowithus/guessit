@@ -18,8 +18,8 @@ var correct = 0
 var isStarted = false
 
 func main() {
-	channelSecret := "fd273a9bbe0c96dd1679cdd18a758fd4"
-	channelAccessToken := "ppy9xSN68/N+Gwgojzcuku2AP1IsF321+pM+at1LFE5C/KD+O5sWkAjwgiJyA9oiO3p6YTddIkgJoO0atvJd7EQ45qahjxl1oRydy1l+9Gto1cKx2VATWxSjLRdADMaiweIe4s6BGMuT5A8oAehXxgdB04t89/1O/w1cDnyilFU="
+	channelSecret := "022bbabe5172412a7a1b8c92cc293e7c"
+	channelAccessToken := "0UX2kP8ikKnu90ALoDwxTLUabQtt7S/c+SC1OcKY3I6IVtwWX0hZ9tvm5tSr6zxUVgqlZH+MiVCj40V55bJEqpajRetQWnfI2xrm3fumk3rbFGqwUC/7Yd+mAhwf4btZ81K91h4gOzjeb6ep3/NmWQdB04t89/1O/w1cDnyilFU="
 	bot, err := linebot.New(channelSecret, channelAccessToken)
 	if err != nil {
 		panic(err.Error())
@@ -30,23 +30,23 @@ func main() {
 	r.POST("/callback", func(c *gin.Context) {
 		events, err := bot.ParseRequest(c.Request)
 
-		log.Print(c.Request)
-
 		if err != nil {
 			if err == linebot.ErrInvalidSignature {
+				log.Println(err.Error())
 				c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
 			} else {
+				log.Println(err.Error())
 				c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 			}
 			return
 		}
 
 		for _, event := range events {
-			// userID := event.Source.UserID
-			// groupID := event.Source.GroupID
-			// roomID := event.Source.RoomID
-			//
-			// log.Println("User:", userID, " Group:", groupID, " Room:", roomID)
+			userID := event.Source.UserID
+			groupID := event.Source.GroupID
+			roomID := event.Source.RoomID
+
+			log.Println("User:", userID, " Group:", groupID, " Room:", roomID)
 
 			if event.Type == linebot.EventTypeMessage {
 				switch message := event.Message.(type) {
