@@ -57,7 +57,7 @@ func main() {
 					if input == "/start" {
 						isStarted = true
 						answeredConcat := strings.Join(answered[:], "\n")
-						replyText := fmt.Sprintf("%s\n%s", question, answeredConcat)
+						replyText = fmt.Sprintf("%s\n%s", question, answeredConcat)
 
 						if _, err = bot.ReplyMessage(event.ReplyToken, linebot.NewTextMessage(replyText)).Do(); err != nil {
 							log.Print(err)
@@ -67,8 +67,10 @@ func main() {
 					}
 
 					if isStarted {
+						congratsText := "Congrats you have answered all correctly!! Please wait for the full features to release :)"
+
 						if correct == 5 {
-							replyText = "Congrats you have answered all correctly!! Please wait for the full features to release :)"
+							replyText = congratsText
 
 							if _, err = bot.ReplyMessage(event.ReplyToken, linebot.NewTextMessage(replyText)).Do(); err != nil {
 								log.Print(err)
@@ -88,7 +90,7 @@ func main() {
 						answeredConcat := strings.Join(answered[:], "\n")
 
 						if correct == 5 {
-							replyText = fmt.Sprintf("%s\nCongrats you have answered all correctly!! Please wait for the full features to release :)", answeredConcat)
+							replyText = fmt.Sprintf("%s\n%s\n\n%s", question, answeredConcat, congratsText)
 
 							if _, err = bot.ReplyMessage(event.ReplyToken, linebot.NewTextMessage(replyText)).Do(); err != nil {
 								log.Print(err)
@@ -97,7 +99,7 @@ func main() {
 							return
 						}
 
-						replyText = answeredConcat
+						replyText = fmt.Sprintf("%s\n%s", question, answeredConcat)
 						if _, err = bot.ReplyMessage(event.ReplyToken, linebot.NewTextMessage(replyText)).Do(); err != nil {
 							log.Print(err)
 						}
