@@ -3,39 +3,39 @@
     "question": "Siapa tokoh yang ada di anime Naruto?",
     "answers": [
       {
-        "text": "Naruto Uzumaki",
+        "text": "naruto uzumaki",
         "score": 51
       },
       {
-        "text": "Sasuke Uchiha",
+        "text": "sasuke uchiha",
         "score": 46
       },
       {
-        "text": "Sakura Haruno",
+        "text": "sakura haruno",
         "score": 42
       },
       {
-        "text": "Kakashi Hatake",
+        "text": "kakashi hatake",
         "score": 35
       },
       {
-        "text": "Shikamaru Nara",
+        "text": "shikamaru nara",
         "score": 28
       },
       {
-        "text": "Chouji Akimichi",
+        "text": "chouji akimichi",
         "score": 23
       },
       {
-        "text": "Ino Yamanaka",
+        "text": "ino yamanaka",
         "score": 15
       },
       {
-        "text": "Gaara",
+        "text": "gaara",
         "score": 13
       },
       {
-        "text": "Rock Lee",
+        "text": "rock lee",
         "score": 10
       }
     ]
@@ -272,6 +272,558 @@
       {
         "text": "sekretaris",
         "score": 5
+      }
+    ]
+  },
+  {
+    "question": "Sesuatu yang bercahaya?",
+    "answers": [
+      {
+        "text": "lilin",
+        "score": 29
+      },
+      {
+        "text": "lampu",
+        "score": 20
+      },
+      {
+        "text": "matahari",
+        "score": 16
+      },
+      {
+        "text": "bulan",
+        "score": 14
+      },
+      {
+        "text": "bintang",
+        "score": 9
+      },
+      {
+        "text": "emas",
+        "score": 7
+      },
+      {
+        "text": "permata",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "question": "Cita-cita anak sewaktu sd?",
+    "answers": [
+      {
+        "text": "dokter",
+        "score": 38
+      },
+      {
+        "text": "presiden",
+        "score": 25
+      },
+      {
+        "text": "polisi",
+        "score": 16
+      },
+      {
+        "text": "tentara",
+        "score": 11
+      },
+      {
+        "text": "guru",
+        "score": 5
+      },
+      {
+        "text": "insinyur",
+        "score": 3
+      },
+      {
+        "text": "pilot",
+        "score": 2
+      }
+    ]
+  },
+  {
+    "question": "Yang biasa ada pada wasit?",
+    "answers": [
+      {
+        "text": "peluit",
+        "score": 37
+      },
+      {
+        "text": "bendera",
+        "score": 15
+      },
+      {
+        "text": "kartu merah",
+        "score": 14
+      },
+      {
+        "text": "kartu kuning",
+        "score": 13
+      },
+      {
+        "text": "jam tangan",
+        "score": 10
+      },
+      {
+        "text": "koin",
+        "score": 7
+      },
+      {
+        "text": "pulpen",
+        "score": 4
+      }
+    ]
+  },
+  {
+    "question": "Kue yang dimasak pada saat lebaran?",
+    "answers": [
+      {
+        "text": "putri salju",
+        "score": 34
+      },
+      {
+        "text": "lidah kucing",
+        "score": 20
+      },
+      {
+        "text": "nastar",
+        "score": 19
+      },
+      {
+        "text": "butter",
+        "score": 13
+      },
+      {
+        "text": "kastangel",
+        "score": 10
+      },
+      {
+        "text": "sagu",
+        "score": 4
+      }
+    ]
+  },
+  {
+    "question": "Jenis pakaian?",
+    "answers": [
+      {
+        "text": "daster",
+        "score": 31
+      },
+      {
+        "text": "kaos",
+        "score": 19
+      },
+      {
+        "text": "jas",
+        "score": 13
+      },
+      {
+        "text": "kemeja",
+        "score": 12
+      },
+      {
+        "text": "jaket",
+        "score": 10
+      }
+    ]
+  },
+  {
+    "question": "Makanan apa yang biasa dibawa untuk bekal sekolah?",
+    "answers": [
+      {
+        "text": "mie",
+        "score": 26
+      },
+      {
+        "text": "nasi goreng",
+        "score": 18
+      },
+      {
+        "text": "ayam goreng",
+        "score": 16
+      },
+      {
+        "text": "roti",
+        "score": 11
+      },
+      {
+        "text": "sosis",
+        "score": 9
+      },
+      {
+        "text": "nasi uduk",
+        "score": 6
+      }
+    ]
+  },
+  {
+    "question": "Daun yang dipakai untuk hiasan?",
+    "answers": [
+      {
+        "text": "pisang",
+        "score": 34
+      },
+      {
+        "text": "cemara",
+        "score": 31
+      },
+      {
+        "text": "singkong",
+        "score": 14
+      },
+      {
+        "text": "kelapa",
+        "score": 12
+      },
+      {
+        "text": "selada",
+        "score": 9
+      }
+    ]
+  },
+  {
+    "question": "Apa yang tidak perlu dimiki orang yang botak?",
+    "answers": [
+      {
+        "text": "sisir",
+        "score": 62
+      },
+      {
+        "text": "shampo",
+        "score": 19
+      },
+      {
+        "text": "gel",
+        "score": 9
+      },
+      {
+        "text": "pengering rambut",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "question": "Apa yang dilakukan orang kalau kecapean?",
+    "answers": [
+      {
+        "text": "tidur",
+        "score": 37
+      },
+      {
+        "text": "makan",
+        "score": 34
+      },
+      {
+        "text": "minum",
+        "score": 17
+      },
+      {
+        "text": "istirahat",
+        "score": 5
+      },
+      {
+        "text": "spa",
+        "score": 4
+      },
+      {
+        "text": "mandi",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "question": "Alat yang digunakan untuk membuat surat?",
+    "answers": [
+      {
+        "text": "kertas",
+        "score": 28
+      },
+      {
+        "text": "pulpen",
+        "score": 26
+      },
+      {
+        "text": "pensil",
+        "score": 15
+      },
+      {
+        "text": "mesin ketik",
+        "score": 14
+      },
+      {
+        "text": "printer",
+        "score": 12
+      },
+      {
+        "text": "komputer",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "question": "Macam-macam minuman yang memakai es?",
+    "answers": [
+      {
+        "text": "es lilin",
+        "score": 28
+      },
+      {
+        "text": "es campur",
+        "score": 27
+      },
+      {
+        "text": "es dawet",
+        "score": 13
+      },
+      {
+        "text": "es teler",
+        "score": 11
+      },
+      {
+        "text": "es teh manis",
+        "score": 10
+      },
+      {
+        "text": "es jeruk",
+        "score": 6
+      },
+      {
+        "text": "es krim",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "question": "Tarian daerah di indonesia?",
+    "answers": [
+      {
+        "text": "jaipong",
+        "score": 49
+      },
+      {
+        "text": "kecak",
+        "score": 21
+      },
+      {
+        "text": "piring",
+        "score": 19
+      },
+      {
+        "text": "lilin",
+        "score": 11
+      }
+    ]
+  },
+  {
+    "question": "Ragam isi bakpau?",
+    "answers": [
+      {
+        "text": "kacang hijau",
+        "score": 37
+      },
+      {
+        "text": "kacang hitam",
+        "score": 25
+      },
+      {
+        "text": "coklat",
+        "score": 22
+      },
+      {
+        "text": "daging",
+        "score": 16
+      }
+    ]
+  },
+  {
+    "question": "Perusahaan asuransi?",
+    "answers": [
+      {
+        "text": "prudential",
+        "score": 39
+      },
+      {
+        "text": "astra",
+        "score": 38
+      },
+      {
+        "text": "garda oto",
+        "score": 11
+      },
+      {
+        "text": "bumi putra",
+        "score": 10
+      },
+      {
+        "text": "allianz",
+        "score": 2
+      }
+    ]
+  },
+  {
+    "question": "Apa yg biasanya dilakukan orang di depan komputer?",
+    "answers": [
+      {
+        "text": "internet",
+        "score": 39
+      },
+      {
+        "text": "main game",
+        "score": 38
+      },
+      {
+        "text": "belajar",
+        "score": 13
+      },
+      {
+        "text": "kerja",
+        "score": 7
+      },
+      {
+        "text": "nonton",
+        "score": 2
+      },
+      {
+        "text": "dengar musik",
+        "score": 1
+      }
+    ]
+  },
+  {
+    "question": "Apa reaksi wanita bila melihat tikus?",
+    "answers": [
+      {
+        "text": "lari",
+        "score": 40
+      },
+      {
+        "text": "teriak",
+        "score": 31
+      },
+      {
+        "text": "pingsan",
+        "score": 14
+      },
+      {
+        "text": "loncat",
+        "score": 8
+      },
+      {
+        "text": "kaget",
+        "score": 7
+      }
+    ]
+  },
+  {
+    "question": "Sesuatu yang memiliki tali?",
+    "answers": [
+      {
+        "text": "sepatu",
+        "score": 43
+      },
+      {
+        "text": "pakaian dalam",
+        "score": 21
+      },
+      {
+        "text": "tas",
+        "score": 15
+      },
+      {
+        "text": "celana",
+        "score": 7
+      },
+      {
+        "text": "pulpen",
+        "score": 4
+      }
+    ]
+  },
+  {
+    "question": "Tempat orang biasa main internet?",
+    "answers": [
+      {
+        "text": "rumah",
+        "score": 39
+      },
+      {
+        "text": "warnet",
+        "score": 21
+      },
+      {
+        "text": "kantor",
+        "score": 17
+      },
+      {
+        "text": "sekolah",
+        "score": 10
+      },
+      {
+        "text": "rumah teman",
+        "score": 7
+      },
+      {
+        "text": "kamar",
+        "score": 6
+      }
+    ]
+  },
+  {
+    "question": "Mobil keluaran toyota?",
+    "answers": [
+      {
+        "text": "harrier",
+        "score": 39
+      },
+      {
+        "text": "land cruiser",
+        "score": 25
+      },
+      {
+        "text": "fortuner",
+        "score": 11
+      },
+      {
+        "text": "camry",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "question": "Warna-warna bunga mawar?",
+    "answers": [
+      {
+        "text": "merah",
+        "score": 39
+      },
+      {
+        "text": "putih",
+        "score": 24
+      },
+      {
+        "text": "kuning",
+        "score": 12
+      },
+      {
+        "text": "jingga",
+        "score": 11
+      },
+      {
+        "text": "orange",
+        "score": 7
+      },
+      {
+        "text": "maroon",
+        "score": 4
+      },
+      {
+        "text": "merah muda",
+        "score": 2
+      },
+      {
+        "text": "ungu",
+        "score": 1
       }
     ]
   }

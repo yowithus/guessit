@@ -20,6 +20,7 @@ var replyText = ""
 var correctAnswers []string
 var isStarted = false
 var correct = 0
+var blank = "______________________"
 
 var event *linebot.Event
 
@@ -83,7 +84,7 @@ func startGame() {
 
 	for i := 0; i < len(qna.Answers); i++ {
 		num := i + 1
-		correctAnswers = append(correctAnswers, fmt.Sprintf("%d. ______________________", num))
+		correctAnswers = append(correctAnswers, fmt.Sprintf("%d. %s", num, blank))
 	}
 
 	question := qna.Question
@@ -105,7 +106,7 @@ func restartGame() {
 
 	for i := 0; i < len(qna.Answers); i++ {
 		num := i + 1
-		correctAnswers = append(correctAnswers, fmt.Sprintf("%d. ______________________", num))
+		correctAnswers = append(correctAnswers, fmt.Sprintf("%d. %s", num, blank))
 	}
 
 	question := qna.Question
@@ -170,6 +171,33 @@ func guess(input string) {
 	}
 }
 
+func hint() {
+	if !isStarted {
+		return
+	}
+
+	var hint = ""
+
+	for i := 0; i < len(correctAnswers); i++ {
+		num := i + 1
+
+		if strings.EqualFold(fmt.Sprintf("%d. %s", num, blank), correctAnswers[i]) {
+			answerText := qna.Answers[i].Text
+			for j := 0; j < len(answerText); j++ {
+				c := answerText[j]
+
+				if j == 0 || j == len(answerText)-1 {
+					hint = fmt.Sprintf("%s %c", hint, c)
+				} else {
+					hint = fmt.Sprintf("%s _", hint)
+				}
+			}
+			replyText = fmt.Sprintf("Ngestuck yah? Ini aku kasih hint buat kamu\nHint:%s\nTetep semangat :)", hint)
+			return
+		}
+	}
+}
+
 func reset() {
 	correct = 0
 	correctAnswers = nil
@@ -199,6 +227,8 @@ func PlayTest(c *gin.Context) {
 		restartGame()
 	case "nyerah":
 		endGame()
+	case "hint":
+		hint()
 	default:
 		guess(input)
 	}
