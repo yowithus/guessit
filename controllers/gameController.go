@@ -53,20 +53,17 @@ func Play(c *gin.Context) {
 				switch input {
 				case "/mulai":
 					startGame()
-					reply(replyText)
 				case "/ulang":
 					restartGame()
-					reply(replyText)
 				case "/nyerah":
 					endGame()
-					reply(replyText)
 				case "/hint":
 					hint()
-					reply(replyText)
 				default:
 					guess(input)
-					reply(replyText)
 				}
+
+				reply(replyText)
 			}
 		}
 	}
