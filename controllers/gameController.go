@@ -6,6 +6,7 @@ import (
 	"math/rand"
 	"net/http"
 	"strings"
+	"time"
 
 	"github.com/gin-gonic/gin"
 	"github.com/line/line-bot-sdk-go/linebot"
@@ -79,6 +80,7 @@ func startGame() {
 	reset()
 
 	qnas := common.GetQNAs()
+	rand.Seed(time.Now().UnixNano())
 	random := rand.Intn(len(qnas))
 	qna = qnas[random]
 
