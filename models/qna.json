@@ -1,0 +1,278 @@
+[
+  {
+    "question": "Siapa tokoh yang ada di anime Naruto?",
+    "answers": [
+      {
+        "text": "Naruto Uzumaki",
+        "score": 51
+      },
+      {
+        "text": "Sasuke Uchiha",
+        "score": 46
+      },
+      {
+        "text": "Sakura Haruno",
+        "score": 42
+      },
+      {
+        "text": "Kakashi Hatake",
+        "score": 35
+      },
+      {
+        "text": "Shikamaru Nara",
+        "score": 28
+      },
+      {
+        "text": "Chouji Akimichi",
+        "score": 23
+      },
+      {
+        "text": "Ino Yamanaka",
+        "score": 15
+      },
+      {
+        "text": "Gaara",
+        "score": 13
+      },
+      {
+        "text": "Rock Lee",
+        "score": 10
+      }
+    ]
+  },
+  {
+    "question": "Apa yang ada di rumah sakit?",
+    "answers": [
+      {
+        "text": "dokter",
+        "score": 35
+      },
+      {
+        "text": "perawat",
+        "score": 26
+      },
+      {
+        "text": "pasien",
+        "score": 14
+      },
+      {
+        "text": "jarum suntik",
+        "score": 10
+      },
+      {
+        "text": "mayat",
+        "score": 7
+      },
+      {
+        "text": "kursi roda",
+        "score": 4
+      },
+      {
+        "text": "ruang tunggu",
+        "score": 3
+      },
+      {
+        "text": "termometer",
+        "score": 1
+      }
+    ]
+  },
+  {
+    "question": "Yang dikenakan/ dibawa saat menaiki sepeda motor?",
+    "answers": [
+      {
+        "text": "helm",
+        "score": 28
+      },
+      {
+        "text": "sim",
+        "score": 21
+      },
+      {
+        "text": "stnk",
+        "score": 19
+      },
+      {
+        "text": "jaket",
+        "score": 11
+      },
+      {
+        "text": "tas",
+        "score": 6
+      },
+      {
+        "text": "sarung tangan",
+        "score": 5
+      },
+      {
+        "text": "kacamata",
+        "score": 21
+      },
+      {
+        "text": "sapu tangan",
+        "score": 3
+      },
+      {
+        "text": "sandal",
+        "score": 2
+      },
+      {
+        "text": "sepatu",
+        "score": 1
+      }
+    ]
+  },
+  {
+    "question": "Kota di usa?",
+    "answers": [
+      {
+        "text": "new york",
+        "score": 35
+      },
+      {
+        "text": "los angeles",
+        "score": 34
+      },
+      {
+        "text": "orlando",
+        "score": 13
+      },
+      {
+        "text": "last vegas",
+        "score": 8
+      },
+      {
+        "text": "texas",
+        "score": 7
+      },
+      {
+        "text": "seattle",
+        "score": 2
+      },
+      {
+        "text": "boston",
+        "score": 1
+      }
+    ]
+  },
+  {
+    "question": "Apa biasanya isi dalam roti?",
+    "answers": [
+      {
+        "text": "coklat",
+        "score": 34
+      },
+      {
+        "text": "kacang",
+        "score": 22
+      },
+      {
+        "text": "nanas",
+        "score": 14
+      },
+      {
+        "text": "pisang",
+        "score": 13
+      },
+      {
+        "text": "strawberry",
+        "score": 10
+      },
+      {
+        "text": "keju",
+        "score": 5
+      },
+      {
+        "text": "daging",
+        "score": 2
+      }
+    ]
+  },
+  {
+    "question": "Barang apa orang sering kehilangan?",
+    "answers": [
+      {
+        "text": "uang",
+        "score": 33
+      },
+      {
+        "text": "dompet",
+        "score": 27
+      },
+      {
+        "text": "handphone",
+        "score": 15
+      },
+      {
+        "text": "cincin",
+        "score": 13
+      },
+      {
+        "text": "korek api",
+        "score": 12
+      }
+    ]
+  },
+  {
+    "question": "Hewan yang memiliki telur?",
+    "answers": [
+      {
+        "text": "bebek",
+        "score": 29
+      },
+      {
+        "text": "ayam",
+        "score": 28
+      },
+      {
+        "text": "burung",
+        "score": 17
+      },
+      {
+        "text": "kepiting",
+        "score": 13
+      },
+      {
+        "text": "penyu",
+        "score": 10
+      },
+      {
+        "text": "buaya",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "question": "Sesuatu yang terdapat di kantor?",
+    "answers": [
+      {
+        "text": "meja",
+        "score": 28
+      },
+      {
+        "text": "kursi",
+        "score": 27
+      },
+      {
+        "text": "komputer",
+        "score": 13
+      },
+      {
+        "text": "bawahan",
+        "score": 11
+      },
+      {
+        "text": "ruang rapat",
+        "score": 10
+      },
+      {
+        "text": "bos",
+        "score": 6
+      },
+      {
+        "text": "sekretaris",
+        "score": 5
+      }
+    ]
+  }
+]
