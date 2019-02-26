@@ -47,6 +47,7 @@ func Play(c *gin.Context) {
 			switch message := event.Message.(type) {
 			case *linebot.TextMessage:
 				input := message.Text
+				replyText = ""
 
 				switch input {
 				case "/mulai":
@@ -70,12 +71,12 @@ func Play(c *gin.Context) {
 }
 
 func startGame() {
-	replyText = ""
-
 	if isStarted {
 		return
 	}
 
+	reset()
+
 	qnas := common.GetQNAs()
 	random := rand.Intn(len(qnas))
 	qna = qnas[random]
@@ -89,17 +90,15 @@ func startGame() {
 	correctAnswersString := strings.Join(correctAnswers[:], "\n")
 	replyText = fmt.Sprintf("%s\n%s", question, correctAnswersString)
 	isStarted = true
-	correctAnswers = nil
-	correct = 0
 }
 
 func restartGame() {
-	replyText = ""
-
 	if !isStarted {
 		return
 	}
 
+	reset()
+
 	qnas := common.GetQNAs()
 	random := rand.Intn(len(qnas))
 	qna = qnas[random]
@@ -113,13 +112,9 @@ func restartGame() {
 	correctAnswersString := strings.Join(correctAnswers[:], "\n")
 	replyText = fmt.Sprintf("%s\n%s", question, correctAnswersString)
 	isStarted = true
-	correctAnswers = nil
-	correct = 0
 }
 
 func endGame() {
-	replyText = ""
-
 	if !isStarted {
 		return
 	}
@@ -136,15 +131,10 @@ func endGame() {
 
 	correctAnswersString := strings.Join(correctAnswers[:], "\n")
 	replyText = fmt.Sprintf("%s\n%s\n\n%s", question, correctAnswersString, giveupText)
-	isStarted = false
-	correctAnswers = nil
-	correct = 0
-	qna = models.QNA{}
+	reset()
 }
 
 func guess(input string) {
-	replyText = ""
-
 	if !isStarted {
 		return
 	}
@@ -173,14 +163,18 @@ func guess(input string) {
 
 			if correct == len(answers) {
 				replyText = fmt.Sprintf("%s\n\n%s", replyText, congratsText)
-				isStarted = false
-				correctAnswers = nil
-				correct = 0
-				qna = models.QNA{}
+				reset()
 			}
 			return
 		}
 	}
+}
+
+func reset() {
+	correct = 0
+	correctAnswers = nil
+	qna = models.QNA{}
+	isStarted = false
 }
 
 func reply(text string) {
@@ -196,6 +190,7 @@ func reply(text string) {
 
 func PlayTest(c *gin.Context) {
 	input := c.Query("input")
+	replyText = ""
 
 	switch input {
 	case "mulai":
