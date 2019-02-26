@@ -60,6 +60,9 @@ func Play(c *gin.Context) {
 				case "/nyerah":
 					endGame()
 					reply(replyText)
+				case "/hint":
+					hint()
+					reply(replyText)
 				default:
 					guess(input)
 					reply(replyText)
