@@ -23,12 +23,20 @@ var isStarted = false
 var correct = 0
 var blank = "______________________"
 var scoreBoards []models.ScoreBoard
+var user map[string]string
 
 var event *linebot.Event
 
 func Play(c *gin.Context) {
 	bot := common.GetBot()
 	events, err := bot.ParseRequest(c.Request)
+
+	// map userID -> user
+	user["Ud822cc4d292ebff2d209750748424cf9"] = "Yonatan"
+	user["U031ffb3a10863fd17494562bf24a9902"] = "Nicholas"
+	user["Uc615753e7866a219df34a79cbc9fac4f"] = "Edw"
+	user["U9d262243d1ab45795b73cfed1dc21462"] = "Nathan"
+	user["U72b299757d1d1e14c4a58b59ff0ef3ef"] = "Ricky Cibai"
 
 	if err != nil {
 		if err == linebot.ErrInvalidSignature {
@@ -45,17 +53,20 @@ func Play(c *gin.Context) {
 		if err != nil {
 			log.Println(err)
 		}
-		// name := profile.DisplayName
 
-		log.Println("111111111")
+		log.Println("-------")
 		log.Println(userID)
-		log.Println("222222222")
-		log.Println(profile)
-		log.Println("333333333")
-		log.Println(profile.DisplayName)
-		log.Println("444444444")
+		log.Println("-------")
 
-		name := profile.DisplayName
+		var name string
+		if profile != nil {
+			name = profile.DisplayName
+		} else {
+			name = user[userID]
+			if name == "" {
+				name = "Guest"
+			}
+		}
 
 		if event.Type == linebot.EventTypeMessage {
 			switch message := event.Message.(type) {
