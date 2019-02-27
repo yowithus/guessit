@@ -23,8 +23,6 @@ var isStarted = false
 var correct = 0
 var blank = "______________________"
 var scoreBoards []models.ScoreBoard
-var user map[string]string
-
 var event *linebot.Event
 
 func Play(c *gin.Context) {
@@ -32,11 +30,14 @@ func Play(c *gin.Context) {
 	events, err := bot.ParseRequest(c.Request)
 
 	// map userID -> user
-	user["Ud822cc4d292ebff2d209750748424cf9"] = "Yonatan"
-	user["U031ffb3a10863fd17494562bf24a9902"] = "Nicholas"
-	user["Uc615753e7866a219df34a79cbc9fac4f"] = "Edw"
-	user["U9d262243d1ab45795b73cfed1dc21462"] = "Nathan"
-	user["U72b299757d1d1e14c4a58b59ff0ef3ef"] = "Ricky Cibai"
+	var user = map[string]string{
+		"Ud822cc4d292ebff2d209750748424cf9": "Yonatan",
+		"U031ffb3a10863fd17494562bf24a9902": "Nicholas",
+		"Uc615753e7866a219df34a79cbc9fac4f": "Edw",
+		"U9d262243d1ab45795b73cfed1dc21462": "Nathan",
+		"U72b299757d1d1e14c4a58b59ff0ef3ef": "Ricky Cibai",
+		"U37129fe3076d20a39cd14785897c2cb4": "Septian J",
+	}
 
 	if err != nil {
 		if err == linebot.ErrInvalidSignature {
