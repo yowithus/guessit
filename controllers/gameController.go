@@ -48,7 +48,7 @@ func Play(c *gin.Context) {
 		name := profile.DisplayName
 
 		log.Println("111111111")
-		log.Println(userId)
+		log.Println(userID)
 		log.Println("222222222")
 		log.Println(profile)
 		log.Println("333333333")
