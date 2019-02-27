@@ -279,11 +279,11 @@ func score() {
 
 func command() {
 	commands := []string{
-		"/mulai - untuk memulai permainan",
-		"/ganti - kalo kamu bingung sama pertanyaannya dan mau diganti",
-		"/nyerah - coba berusaha dulu ya, kalo udah mentok baru deh boleh nyerah",
-		"/bantu - tenang, aku bakal kasih kamu hint kok",
-		"/nilai - lihat deh siapa yang paling unggul score nya",
+		"1. /mulai - untuk memulai permainan",
+		"2. /ganti - kalo kamu bingung sama pertanyaannya dan mau diganti",
+		"3. /nyerah - coba berusaha dulu ya, kalo udah mentok baru deh boleh nyerah",
+		"4. /bantu - tenang, aku bakal kasih kamu hint kok",
+		"5. /nilai - lihat deh siapa yang paling unggul score nya",
 	}
 
 	commandsString := strings.Join(commands[:], "\n")
