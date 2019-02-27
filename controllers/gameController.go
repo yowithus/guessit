@@ -47,6 +47,14 @@ func Play(c *gin.Context) {
 		}
 		name := profile.DisplayName
 
+		log.Println("111111111")
+		log.Println(userId)
+		log.Println("222222222")
+		log.Println(profile)
+		log.Println("333333333")
+		log.Println(name)
+		log.Println("444444444")
+
 		if event.Type == linebot.EventTypeMessage {
 			switch message := event.Message.(type) {
 			case *linebot.TextMessage:
