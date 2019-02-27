@@ -757,10 +757,14 @@
       },
       {
         "text": "fortuner",
-        "score": 11
+        "score": 22
       },
       {
         "text": "camry",
+        "score": 11
+      },
+      {
+        "text": "rush",
         "score": 3
       }
     ]
@@ -799,6 +803,1665 @@
       {
         "text": "ungu",
         "score": 1
+      }
+    ]
+  },
+  {
+    "question": "Sebutkan sesuatu yang sekali pakai langsung buang?",
+    "answers": [
+      {
+        "text": "pembalut",
+        "score": 43
+      },
+      {
+        "text": "tissue",
+        "score": 17
+      },
+      {
+        "text": "popok",
+        "score": 11
+      },
+      {
+        "text": "korek",
+        "score": 6
+      },
+      {
+        "text": "teh celup",
+        "score": 5
+      },
+      {
+        "text": "kondom",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "question": "Hotel yang terkenal di indonesia?",
+    "answers": [
+      {
+        "text": "hyatt",
+        "score": 33
+      },
+      {
+        "text": "sheraton",
+        "score": 18
+      },
+      {
+        "text": "shangrila",
+        "score": 14
+      },
+      {
+        "text": "jw marriot",
+        "score": 12
+      },
+      {
+        "text": "majapahit",
+        "score": 11
+      },
+      {
+        "text": "garden palace",
+        "score": 9
+      },
+      {
+        "text": "westin",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "question": "Benda dirumah yang bisa berputar?",
+    "answers": [
+      {
+        "text": "kipas angin",
+        "score": 45
+      },
+      {
+        "text": "jam",
+        "score": 20
+      },
+      {
+        "text": "kursi",
+        "score": 11
+      },
+      {
+        "text": "dvd player",
+        "score": 6
+      },
+      {
+        "text": "blender",
+        "score": 5
+      },
+      {
+        "text": "keran",
+        "score": 4
+      }
+    ]
+  },
+  {
+    "question": "Nama sungai di dunia?",
+    "answers": [
+      {
+        "text": "nil",
+        "score": 34
+      },
+      {
+        "text": "amazon",
+        "score": 28
+      },
+      {
+        "text": "mississippi",
+        "score": 21
+      },
+      {
+        "text": "changjiang",
+        "score": 13
+      },
+      {
+        "text": "huang he",
+        "score": 4
+      }
+    ]
+  },
+  {
+    "question": "Nama jajanan pasar?",
+    "answers": [
+      {
+        "text": "lemper",
+        "score": 37
+      },
+      {
+        "text": "nagasari",
+        "score": 32
+      },
+      {
+        "text": "lupis",
+        "score": 16
+      },
+      {
+        "text": "onde onde",
+        "score": 15
+      }
+    ]
+  },
+  {
+    "question": "Bagian/part dari komputer umum?",
+    "answers": [
+      {
+        "text": "ram",
+        "score": 28
+      },
+      {
+        "text": "cpu",
+        "score": 27
+      },
+      {
+        "text": "mouse",
+        "score": 18
+      },
+      {
+        "text": "keyboard",
+        "score": 12
+      },
+      {
+        "text": "monitor",
+        "score": 7
+      },
+      {
+        "text": "printer",
+        "score": 6
+      },
+      {
+        "text": "scanner",
+        "score": 2
+      }
+    ]
+  },
+  {
+    "question": "Tempat-tempat kencan?",
+    "answers": [
+      {
+        "text": "bioskop",
+        "score": 31
+      },
+      {
+        "text": "pantai",
+        "score": 26
+      },
+      {
+        "text": "warnet",
+        "score": 16
+      },
+      {
+        "text": "restoran",
+        "score": 14
+      },
+      {
+        "text": "rumah",
+        "score": 7
+      },
+      {
+        "text": "toilet",
+        "score": 6
+      }
+    ]
+  },
+  {
+    "question": "Alat musik daerah?",
+    "answers": [
+      {
+        "text": "serulin",
+        "score": 29
+      },
+      {
+        "text": "angklung",
+        "score": 26
+      },
+      {
+        "text": "gendang",
+        "score": 14
+      },
+      {
+        "text": "kolintang",
+        "score": 13
+      },
+      {
+        "text": "gamelan",
+        "score": 10
+      },
+      {
+        "text": "kecapi",
+        "score": 8
+      }
+    ]
+  },
+  {
+    "question": "Pada saat apa orang membuka mulut?",
+    "answers": [
+      {
+        "text": "makan",
+        "score": 42
+      },
+      {
+        "text": "menguap",
+        "score": 33
+      },
+      {
+        "text": "bicara",
+        "score": 14
+      },
+      {
+        "text": "periksa gigi",
+        "score": 5
+      },
+      {
+        "text": "menyanyi",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "question": "Sesuatu yang berhubungan dengan jakarta?",
+    "answers": [
+      {
+        "text": "monas",
+        "score": 44
+      },
+      {
+        "text": "prj",
+        "score": 42
+      },
+      {
+        "text": "betawi",
+        "score": 9
+      },
+      {
+        "text": "ibukota",
+        "score": 4
+      },
+      {
+        "text": "dpr",
+        "score": 1
+      }
+    ]
+  },
+  {
+    "question": "Dimana orang menyembunyikan barang?",
+    "answers": [
+      {
+        "text": "laci",
+        "score": 32
+      },
+      {
+        "text": "brankas",
+        "score": 28
+      },
+      {
+        "text": "kantong",
+        "score": 17
+      },
+      {
+        "text": "kolong ranjang",
+        "score": 13
+      },
+      {
+        "text": "bawah rak",
+        "score": 10
+      }
+    ]
+  },
+  {
+    "question": "Makanan yang dijual pada malam hari?",
+    "answers": [
+      {
+        "text": "nasi goreng",
+        "score": 33
+      },
+      {
+        "text": "bakso",
+        "score": 31
+      },
+      {
+        "text": "roti bakar",
+        "score": 26
+      },
+      {
+        "text": "martabak",
+        "score": 5
+      },
+      {
+        "text": "ayam bakar",
+        "score": 3
+      },
+      {
+        "text": "kerak telor",
+        "score": 2
+      }
+    ]
+  },
+  {
+    "question": "Hewan yang tidak mempunyai ekor?",
+    "answers": [
+      {
+        "text": "kodok",
+        "score": 39
+      },
+      {
+        "text": "kepiting",
+        "score": 27
+      },
+      {
+        "text": "kerang",
+        "score": 15
+      },
+      {
+        "text": "semut",
+        "score": 10
+      },
+      {
+        "text": "nyamuk",
+        "score": 4
+      },
+      {
+        "text": "belalang",
+        "score": 2
+      }
+    ]
+  },
+  {
+    "question": "Bagian tubuh yang sering digigit nyamuk?",
+    "answers": [
+      {
+        "text": "tangan",
+        "score": 38
+      },
+      {
+        "text": "kaki",
+        "score": 27
+      },
+      {
+        "text": "wajah",
+        "score": 19
+      },
+      {
+        "text": "leher",
+        "score": 11
+      }
+    ]
+  },
+  {
+    "question": "Di dalam ruangan studio band terdapat apa saja?",
+    "answers": [
+      {
+        "text": "gitar",
+        "score": 27
+      },
+      {
+        "text": "drum",
+        "score": 25
+      },
+      {
+        "text": "bass",
+        "score": 24
+      },
+      {
+        "text": "mic",
+        "score": 11
+      },
+      {
+        "text": "sound system",
+        "score": 10
+      },
+      {
+        "text": "organ",
+        "score": 2
+      },
+      {
+        "text": "piano",
+        "score": 1
+      }
+    ]
+  },
+  {
+    "question": "Hewan apa yang digunakan untuk pengobatan?",
+    "answers": [
+      {
+        "text": "lintah",
+        "score": 35
+      },
+      {
+        "text": "lebah",
+        "score": 23
+      },
+      {
+        "text": "cacing",
+        "score": 12
+      },
+      {
+        "text": "tokek",
+        "score": 11
+      },
+      {
+        "text": "kelelawar",
+        "score": 7
+      },
+      {
+        "text": "ikan",
+        "score": 5
+      },
+      {
+        "text": "ular",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "question": "Mengapa anak kecil minta digendong?",
+    "answers": [
+      {
+        "text": "capek",
+        "score": 28
+      },
+      {
+        "text": "manja",
+        "score": 21
+      },
+      {
+        "text": "takut",
+        "score": 17
+      },
+      {
+        "text": "ngantuk",
+        "score": 14
+      },
+      {
+        "text": "sakit",
+        "score": 10
+      },
+      {
+        "text": "kangen",
+        "score": 7
+      }
+    ]
+  },
+  {
+    "question": "Tanaman perkebunan?",
+    "answers": [
+      {
+        "text": "kopi",
+        "score": 30
+      },
+      {
+        "text": "teh",
+        "score": 25
+      },
+      {
+        "text": "cengkeh",
+        "score": 22
+      },
+      {
+        "text": "karet",
+        "score": 16
+      },
+      {
+        "text": "coklat",
+        "score": 5
+      },
+      {
+        "text": "kelapa sawit",
+        "score": 2
+      }
+    ]
+  },
+  {
+    "question": "Istilah sepak bola?",
+    "answers": [
+      {
+        "text": "goal",
+        "score": 28
+      },
+      {
+        "text": "offside",
+        "score": 27
+      },
+      {
+        "text": "penalty",
+        "score": 13
+      },
+      {
+        "text": "kartu kuning",
+        "score": 11
+      },
+      {
+        "text": "kartu merah",
+        "score": 10
+      },
+      {
+        "text": "pelanggaran",
+        "score": 6
+      },
+      {
+        "text": "diving",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "question": "Hewan apa yang hidup di sekitar sungai?",
+    "answers": [
+      {
+        "text": "buaya",
+        "score": 30
+      },
+      {
+        "text": "ikan",
+        "score": 23
+      },
+      {
+        "text": "kodok",
+        "score": 16
+      },
+      {
+        "text": "ular",
+        "score": 11
+      },
+      {
+        "text": "kadal",
+        "score": 9
+      },
+      {
+        "text": "siput",
+        "score": 5
+      },
+      {
+        "text": "kepiting",
+        "score": 4
+      }
+    ]
+  },
+  {
+    "question": "Makanan yang disukai anak-anak?",
+    "answers": [
+      {
+        "text": "chiki",
+        "score": 28
+      },
+      {
+        "text": "permen",
+        "score": 27
+      },
+      {
+        "text": "manisan",
+        "score": 13
+      },
+      {
+        "text": "coklat",
+        "score": 11
+      },
+      {
+        "text": "coki-coki",
+        "score": 10
+      }
+    ]
+  },
+  {
+    "question": "Hewan mamalia?",
+    "answers": [
+      {
+        "text": "anjing",
+        "score": 30
+      },
+      {
+        "text": "kucing",
+        "score": 27
+      },
+      {
+        "text": "singa",
+        "score": 21
+      },
+      {
+        "text": "kelinci",
+        "score": 17
+      },
+      {
+        "text": "beruang",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "question": "Darimana orang mendapatkan resep makanan?",
+    "answers": [
+      {
+        "text": "majalah",
+        "score": 28
+      },
+      {
+        "text": "buku resep",
+        "score": 27
+      },
+      {
+        "text": "internet",
+        "score": 13
+      },
+      {
+        "text": "televisi",
+        "score": 11
+      },
+      {
+        "text": "orang tua",
+        "score": 10
+      },
+      {
+        "text": "kursus",
+        "score": 6
+      }
+    ]
+  },
+  {
+    "question": "Benda apa di dalam rumah yang berwarna putih?",
+    "answers": [
+      {
+        "text": "lantai",
+        "score": 32
+      },
+      {
+        "text": "tembok",
+        "score": 27
+      },
+      {
+        "text": "lampu",
+        "score": 17
+      },
+      {
+        "text": "kulkas",
+        "score": 12
+      },
+      {
+        "text": "plastik",
+        "score": 6
+      },
+      {
+        "text": "toples",
+        "score": 4
+      },
+      {
+        "text": "sofa",
+        "score": 2
+      }
+    ]
+  },
+  {
+    "question": "Hewan yang selalu membawa rumahnya kemana saja?",
+    "answers": [
+      {
+        "text": "keong",
+        "score": 34
+      },
+      {
+        "text": "siput",
+        "score": 26
+      },
+      {
+        "text": "kura-kura",
+        "score": 15
+      },
+      {
+        "text": "penyu",
+        "score": 11
+      },
+      {
+        "text": "kerang",
+        "score": 10
+      },
+      {
+        "text": "bekicot",
+        "score": 4
+      }
+    ]
+  },
+  {
+    "question": "Sesuatu yang kamu beli dari uang jajan sendiri?",
+    "answers": [
+      {
+        "text": "makanan",
+        "score": 31
+      },
+      {
+        "text": "mainan",
+        "score": 25
+      },
+      {
+        "text": "minuman",
+        "score": 18
+      },
+      {
+        "text": "alat tulis",
+        "score": 11
+      }
+    ]
+  },
+  {
+    "question": "Bahan-bahan jamu?",
+    "answers": [
+      {
+        "text": "jahe",
+        "score": 36
+      },
+      {
+        "text": "kunyit",
+        "score": 29
+      },
+      {
+        "text": "beras",
+        "score": 21
+      },
+      {
+        "text": "asam",
+        "score": 9
+      },
+      {
+        "text": "madu",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "question": "Merek mobil yang terkenal?",
+    "answers": [
+      {
+        "text": "honda",
+        "score": 28
+      },
+      {
+        "text": "toyota",
+        "score": 25
+      },
+      {
+        "text": "bmw",
+        "score": 16
+      },
+      {
+        "text": "lamborghini",
+        "score": 12
+      },
+      {
+        "text": "nissan",
+        "score": 11
+      },
+      {
+        "text": "mercedes-benz",
+        "score": 5
+      },
+      {
+        "text": "hyundai",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "question": "Buah yang kecut dan asam?",
+    "answers": [
+      {
+        "text": "jeruk",
+        "score": 33
+      },
+      {
+        "text": "lemon",
+        "score": 25
+      },
+      {
+        "text": "nanas",
+        "score": 20
+      },
+      {
+        "text": "belimbing",
+        "score": 12
+      },
+      {
+        "text": "apel",
+        "score": 7
+      },
+      {
+        "text": "salak",
+        "score": 4
+      }
+    ]
+  },
+  {
+    "question": "Nama gunung besar di indonesia?",
+    "answers": [
+      {
+        "text": "merapi",
+        "score": 29
+      },
+      {
+        "text": "bromo",
+        "score": 26
+      },
+      {
+        "text": "agung",
+        "score": 14
+      },
+      {
+        "text": "rinjani",
+        "score": 13
+      },
+      {
+        "text": "galunggung",
+        "score": 10
+      },
+      {
+        "text": "jayawijaya",
+        "score": 8
+      }
+    ]
+  },
+  {
+    "question": "Kata apa yang diikuti kata sumpah?",
+    "answers": [
+      {
+        "text": "pemuda",
+        "score": 28
+      },
+      {
+        "text": "mati",
+        "score": 26
+      },
+      {
+        "text": "serapah",
+        "score": 15
+      },
+      {
+        "text": "pocong",
+        "score": 14
+      },
+      {
+        "text": "langit",
+        "score": 12
+      },
+      {
+        "text": "demi tuhan",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "question": "Objek yang dijadikan lukisan?",
+    "answers": [
+      {
+        "text": "rumah",
+        "score": 35
+      },
+      {
+        "text": "bunga",
+        "score": 25
+      },
+      {
+        "text": "hewan",
+        "score": 17
+      },
+      {
+        "text": "manusia",
+        "score": 13
+      },
+      {
+        "text": "pemandangan",
+        "score": 8
+      },
+      {
+        "text": "tulisan",
+        "score": 1
+      }
+    ]
+  },
+  {
+    "question": "Hewan apa yang bis dibentuk dengan jari?",
+    "answers": [
+      {
+        "text": "burung",
+        "score": 35
+      },
+      {
+        "text": "anjing",
+        "score": 24
+      },
+      {
+        "text": "kelinci",
+        "score": 13
+      },
+      {
+        "text": "ular",
+        "score": 9
+      },
+      {
+        "text": "ulat",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "question": "Hiburan apa yang ada di pesta ulang tahun?",
+    "answers": [
+      {
+        "text": "badut",
+        "score": 28
+      },
+      {
+        "text": "band",
+        "score": 26
+      },
+      {
+        "text": "sulap",
+        "score": 15
+      },
+      {
+        "text": "kuis",
+        "score": 14
+      },
+      {
+        "text": "game",
+        "score": 12
+      }
+    ]
+  },
+  {
+    "question": "Makanan yang mengandung kalsium?",
+    "answers": [
+      {
+        "text": "keju",
+        "score": 41
+      },
+      {
+        "text": "kacang",
+        "score": 37
+      },
+      {
+        "text": "susu",
+        "score": 16
+      },
+      {
+        "text": "kentang",
+        "score": 6
+      }
+    ]
+  },
+  {
+    "question": "Buah yang berawalan huruf p?",
+    "answers": [
+      {
+        "text": "pisang",
+        "score": 50
+      },
+      {
+        "text": "pepaya",
+        "score": 37
+      },
+      {
+        "text": "plum",
+        "score": 10
+      },
+      {
+        "text": "pear",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "question": "Suara yang ditakuti anak-nak?",
+    "answers": [
+      {
+        "text": "anjing",
+        "score": 33
+      },
+      {
+        "text": "hantu",
+        "score": 28
+      },
+      {
+        "text": "petir",
+        "score": 24
+      },
+      {
+        "text": "harimau",
+        "score": 15
+      }
+    ]
+  },
+  {
+    "question": "Makanan apa yang dibungkus memakai kertas cokelat dan karet dapur?",
+    "answers": [
+      {
+        "text": "nasi uduk",
+        "score": 32
+      },
+      {
+        "text": "gado-gado",
+        "score": 24
+      },
+      {
+        "text": "nasi rames",
+        "score": 15
+      },
+      {
+        "text": "nasi goreng",
+        "score": 12
+      },
+      {
+        "text": "ketoprak",
+        "score": 9
+      }
+    ]
+  },
+  {
+    "question": "Apa saja yang diebli ketika ingin menonton bioskop?",
+    "answers": [
+      {
+        "text": "snack",
+        "score": 31
+      },
+      {
+        "text": "minuman",
+        "score": 23
+      },
+      {
+        "text": "popcorn",
+        "score": 19
+      },
+      {
+        "text": "tissue",
+        "score": 15
+      },
+      {
+        "text": "permen",
+        "score": 8
+      },
+      {
+        "text": "roti",
+        "score": 4
+      }
+    ]
+  },
+  {
+    "question": "Apa yang dilakukan ketika orang tidak dikenal menyapa?",
+    "answers": [
+      {
+        "text": "cuek",
+        "score": 38
+      },
+      {
+        "text": "diam",
+        "score": 26
+      },
+      {
+        "text": "bingung",
+        "score": 20
+      },
+      {
+        "text": "balas menyapa",
+        "score": 9
+      },
+      {
+        "text": "heran",
+        "score": 5
+      },
+      {
+        "text": "pergi",
+        "score": 2
+      }
+    ]
+  },
+  {
+    "question": "Kota di australia?",
+    "answers": [
+      {
+        "text": "perth",
+        "score": 36
+      },
+      {
+        "text": "sidney",
+        "score": 29
+      },
+      {
+        "text": "melbourne",
+        "score": 21
+      },
+      {
+        "text": "canberra",
+        "score": 8
+      },
+      {
+        "text": "brisbane",
+        "score": 3
+      },
+      {
+        "text": "adelaide",
+        "score": 2
+      },
+      {
+        "text": "darwin",
+        "score": 1
+      }
+    ]
+  },
+  {
+    "question": "Apa yang anda beli ketika banyak uang?",
+    "answers": [
+      {
+        "text": "rumah",
+        "score": 37
+      },
+      {
+        "text": "mobil",
+        "score": 34
+      },
+      {
+        "text": "perhiasan",
+        "score": 17
+      },
+      {
+        "text": "handphone",
+        "score": 5
+      },
+      {
+        "text": "kamera",
+        "score": 4
+      },
+      {
+        "text": "laptop",
+        "score": 3
+      },
+      {
+        "text": "anjing",
+        "score": 1
+      }
+    ]
+  },
+  {
+    "question": "Hewan tak berkaki?",
+    "answers": [
+      {
+        "text": "ikan",
+        "score": 40
+      },
+      {
+        "text": "ular",
+        "score": 31
+      },
+      {
+        "text": "cacing",
+        "score": 27
+      },
+      {
+        "text": "belut",
+        "score": 19
+      },
+      {
+        "text": "lintah",
+        "score": 14
+      },
+      {
+        "text": "siput",
+        "score": 9
+      }
+    ]
+  },
+  {
+    "question": "Hewan yang berwajah seram?",
+    "answers": [
+      {
+        "text": "harimau",
+        "score": 37
+      },
+      {
+        "text": "gorilla",
+        "score": 28
+      },
+      {
+        "text": "monyet",
+        "score": 15
+      },
+      {
+        "text": "buaya",
+        "score": 9
+      },
+      {
+        "text": "iguana",
+        "score": 7
+      },
+      {
+        "text": "serigala",
+        "score": 4
+      }
+    ]
+  },
+  {
+    "question": "Sesuatu yang diangkut dengan truk?",
+    "answers": [
+      {
+        "text": "perabotan",
+        "score": 34
+      },
+      {
+        "text": "kayu",
+        "score": 31
+      },
+      {
+        "text": "beras",
+        "score": 16
+      },
+      {
+        "text": "besi",
+        "score": 12
+      },
+      {
+        "text": "baja",
+        "score": 7
+      }
+    ]
+  },
+  {
+    "question": "Apa yang biasa dijadikan kado ulang tahun anak kecil?",
+    "answers": [
+      {
+        "text": "boneka",
+        "score": 34
+      },
+      {
+        "text": "sepeda",
+        "score": 31
+      },
+      {
+        "text": "kue",
+        "score": 18
+      },
+      {
+        "text": "baju",
+        "score": 11
+      },
+      {
+        "text": "celana",
+        "score": 5
+      },
+      {
+        "text": "mainan",
+        "score": 1
+      }
+    ]
+  },
+  {
+    "question": "Apa yang biasa dilakukan di pantai?",
+    "answers": [
+      {
+        "text": "berenang",
+        "score": 29
+      },
+      {
+        "text": "berjemur",
+        "score": 26
+      },
+      {
+        "text": "main pasir",
+        "score": 17
+      },
+      {
+        "text": "volley",
+        "score": 13
+      },
+      {
+        "text": "foto",
+        "score": 10
+      },
+      {
+        "text": "memancing",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "question": "Sesuatu yang berhubungan dengan jembatan?",
+    "answers": [
+      {
+        "text": "sungai",
+        "score": 36
+      },
+      {
+        "text": "besi",
+        "score": 21
+      },
+      {
+        "text": "tinggi",
+        "score": 13
+      },
+      {
+        "text": "tiang",
+        "score": 8
+      },
+      {
+        "text": "kayu",
+        "score": 5
+      },
+      {
+        "text": "bambu",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "question": "Negara yang pernah menjuarai piala dunia?",
+    "answers": [
+      {
+        "text": "brazil",
+        "score": 33
+      },
+      {
+        "text": "argentina",
+        "score": 18
+      },
+      {
+        "text": "inggris",
+        "score": 14
+      },
+      {
+        "text": "perancis",
+        "score": 12
+      },
+      {
+        "text": "jerman",
+        "score": 11
+      },
+      {
+        "text": "uruguay",
+        "score": 9
+      },
+      {
+        "text": "italia",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "question": "Apa yang ada pada daerah pantai?",
+    "answers": [
+      {
+        "text": "pasir",
+        "score": 36
+      },
+      {
+        "text": "kerang",
+        "score": 24
+      },
+      {
+        "text": "pohon kelapa",
+        "score": 20
+      },
+      {
+        "text": "ombak",
+        "score": 7
+      },
+      {
+        "text": "kepiting",
+        "score": 6
+      },
+      {
+        "text": "bintang laut",
+        "score": 4
+      },
+      {
+        "text": "perahu",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "question": "Olahraga bergengsi?",
+    "answers": [
+      {
+        "text": "sepak bola",
+        "score": 40
+      },
+      {
+        "text": "bulutangkis",
+        "score": 23
+      },
+      {
+        "text": "basket",
+        "score": 13
+      },
+      {
+        "text": "tennis",
+        "score": 11
+      },
+      {
+        "text": "golf",
+        "score": 8
+      },
+      {
+        "text": "baseball",
+        "score": 5
+      },
+      {
+        "text": "pacuan kuda",
+        "score": 2
+      }
+    ]
+  },
+  {
+    "question": "Tempat yang biasa ditemukan ikan?",
+    "answers": [
+      {
+        "text": "laut",
+        "score": 29
+      },
+      {
+        "text": "sungai",
+        "score": 25
+      },
+      {
+        "text": "kolam",
+        "score": 16
+      },
+      {
+        "text": "danau",
+        "score": 10
+      },
+      {
+        "text": "akuarium",
+        "score": 9
+      },
+      {
+        "text": "pasar",
+        "score": 6
+      },
+      {
+        "text": "penggorengan",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "question": "Benda yang bisa bocor dan menimbulkan masalah?",
+    "answers": [
+      {
+        "text": "genteng",
+        "score": 31
+      },
+      {
+        "text": "ban",
+        "score": 26
+      },
+      {
+        "text": "kondom",
+        "score": 13
+      },
+      {
+        "text": "gas",
+        "score": 8
+      },
+      {
+        "text": "ember",
+        "score": 6
+      },
+      {
+        "text": "pipa",
+        "score": 5
+      },
+      {
+        "text": "balon",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "question": "Binatang yang sering ada dalam legenda tiongkok?",
+    "answers": [
+      {
+        "text": "naga",
+        "score": 35
+      },
+      {
+        "text": "ular",
+        "score": 32
+      },
+      {
+        "text": "monyet",
+        "score": 23
+      },
+      {
+        "text": "kerbau",
+        "score": 10
+      }
+    ]
+  },
+  {
+    "question": "Nama kota besar di pulau jawa?",
+    "answers": [
+      {
+        "text": "jakarta",
+        "score": 46
+      },
+      {
+        "text": "yogyakarta",
+        "score": 27
+      },
+      {
+        "text": "semarang",
+        "score": 15
+      },
+      {
+        "text": "bandung",
+        "score": 11
+      },
+      {
+        "text": "surabaya",
+        "score": 15
+      }
+    ]
+  },
+  {
+    "question": "Bahan bakar yang berasal dari alam?",
+    "answers": [
+      {
+        "text": "bensin",
+        "score": 38
+      },
+      {
+        "text": "solar",
+        "score": 27
+      },
+      {
+        "text": "batu bara",
+        "score": 18
+      },
+      {
+        "text": "minyak tanah",
+        "score": 10
+      },
+      {
+        "text": "lpg",
+        "score": 7
+      }
+    ]
+  },
+  {
+    "question": "Makanan apa yang biasa dikalengkan?",
+    "answers": [
+      {
+        "text": "ikan",
+        "score": 31
+      },
+      {
+        "text": "daging",
+        "score": 20
+      },
+      {
+        "text": "sosis",
+        "score": 18
+      },
+      {
+        "text": "biskuit",
+        "score": 14
+      },
+      {
+        "text": "buah",
+        "score": 12
+      },
+      {
+        "text": "sayuran",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "question": "Gaya berenang?",
+    "answers": [
+      {
+        "text": "punggung",
+        "score": 34
+      },
+      {
+        "text": "dada",
+        "score": 24
+      },
+      {
+        "text": "kupu-kupu",
+        "score": 16
+      },
+      {
+        "text": "katak",
+        "score": 14
+      },
+      {
+        "text": "bebas",
+        "score": 12
+      }
+    ]
+  },
+  {
+    "question": "Apa yang terdapat di pesawat?",
+    "answers": [
+      {
+        "text": "pilot",
+        "score": 40
+      },
+      {
+        "text": "pramugari",
+        "score": 30
+      },
+      {
+        "text": "cockpit",
+        "score": 28
+      },
+      {
+        "text": "kamar kecil",
+        "score": 16
+      },
+      {
+        "text": "pelampung",
+        "score": 14
+      },
+      {
+        "text": "penumpang",
+        "score": 12
       }
     ]
   }

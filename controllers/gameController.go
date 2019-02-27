@@ -77,10 +77,12 @@ func game(input string, name string) {
 		restart()
 	case "/nyerah":
 		end()
-	case "/hint":
-		hint()
-	case "/score":
+	case "/bantu":
+		help()
+	case "/nilai":
 		score()
+	case "/perintah":
+		command()
 	default:
 		guess(input, name)
 	}
@@ -150,7 +152,9 @@ func end() {
 		num := i + 1
 		answerText := answer.Text
 		answerScore := answer.Score
-		correctFullAnswers[i] = fmt.Sprintf("%d. %s (%d)", num, answerText, answerScore)
+		if correctAnswers[i] == "" {
+			correctFullAnswers[i] = fmt.Sprintf("%d. %s (%d)", num, answerText, answerScore)
+		}
 	}
 
 	correctFullAnswersString := strings.Join(correctFullAnswers[:], "\n")
@@ -204,45 +208,48 @@ func guess(input string, name string) {
 	}
 }
 
-func hint() {
+func help() {
 	if !isStarted {
 		return
 	}
 
 	var hint = ""
+	var incorrectAnswers []string
 
 	for i, correctAnswer := range correctAnswers {
 		if strings.EqualFold("", correctAnswer) {
-			answerText := qna.Answers[i].Text
-
-			var letter rune
-
-			for j, c := range answerText {
-				letter = '_'
-
-				if j == 0 || j == len(answerText)-1 {
-					letter = c
-				}
-
-				if len(answerText) > 4 && (j == 2) {
-					letter = c
-				}
-
-				if len(answerText) > 6 && (j == 2 || j == 5) {
-					letter = c
-				}
-
-				if len(answerText) > 8 && (j == 2 || j == 5 || j == 7) {
-					letter = c
-				}
-
-				hint = fmt.Sprintf("%s %c", hint, letter)
-			}
-
-			replyText = fmt.Sprintf("Ngestuck yah? Ini aku kasih hint buat kamu\nHint:%s\nTetep semangat :)", hint)
-			return
+			incorrectAnswers = append(incorrectAnswers, qna.Answers[i].Text)
 		}
 	}
+
+	rand.Seed(time.Now().UnixNano())
+	random := rand.Intn(len(incorrectAnswers))
+	answerText := incorrectAnswers[random]
+
+	var letter rune
+
+	for j, c := range answerText {
+		if c == ' ' || c == '-' {
+			letter = c
+		} else {
+			letter = '_'
+		}
+
+		if len(answerText) <= 4 && (j == 0 || j == len(answerText)-1) {
+			letter = c
+		} else if len(answerText) > 4 && (j == 0 || j == 2 || j == len(answerText)-1) {
+			letter = c
+		} else if len(answerText) > 6 && (j == 0 || j == 2 || j == 5 || j == len(answerText)-1) {
+			letter = c
+		} else if len(answerText) > 8 && (j == 0 || j == 2 || j == 5 || j == 7 || j == len(answerText)-1) {
+			letter = c
+		}
+
+		hint = fmt.Sprintf("%s %c", hint, letter)
+	}
+
+	replyText = fmt.Sprintf("Ngestuck yah? Ini aku bantu dikit deh\nHint:%s\nTetep semangat :)", hint)
+	return
 }
 
 func score() {
@@ -264,8 +271,23 @@ func score() {
 		scoreFullBoards = append(scoreFullBoards, fmt.Sprintf("%d. %s - %d", num, scoreBoard.Name, scoreBoard.Score))
 	}
 
+	highestScoreBoard := scoreBoards[0]
+
 	scoreFullBoardsString := strings.Join(scoreFullBoards[:], "\n")
-	replyText = fmt.Sprintf("%s\n%s", "Hiyaaa ini score sementara ya, ganbatte!!", scoreFullBoardsString)
+	replyText = fmt.Sprintf("Hiyaaa dan score sementara saat ini adalah *jrengjreng*\n%s\n\nWoohoo selamat %s saat ini kamu yang paling unggul!", scoreFullBoardsString, highestScoreBoard.Name)
+}
+
+func command() {
+	commands := []string{
+		"/mulai - untuk memulai permainan",
+		"/ganti - kalo kamu bingung sama pertanyaannya dan mau diganti",
+		"/nyerah - coba berusaha dulu ya, kalo udah mentok baru deh boleh nyerah",
+		"/bantu - tenang, aku bakal kasih kamu hint kok",
+		"/nilai - lihat deh siapa yang paling unggul score nya",
+	}
+
+	commandsString := strings.Join(commands[:], "\n")
+	replyText = fmt.Sprintf("Oya gengs, ini daftar perintah yang tersedia\n%s\n\nSelamat bermain dan enjoy ya :)", commandsString)
 }
 
 func reset() {
