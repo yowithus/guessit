@@ -45,6 +45,13 @@ func Play(c *gin.Context) {
 
 		log.Println("User:", userID, " Group:", groupID, " Room:", roomID)
 
+		profile, err := bot.GetProfile(userID).Do()
+		if err != nil {
+			log.Println(err)
+		}
+		displayName := profile.DisplayName
+		log.Println(fmt.Sprintf("Display name: %s", displayName))
+
 		if event.Type == linebot.EventTypeMessage {
 			switch message := event.Message.(type) {
 			case *linebot.TextMessage:
@@ -214,7 +221,7 @@ func reply(text string) {
 
 	bot := common.GetBot()
 	if _, err := bot.ReplyMessage(event.ReplyToken, linebot.NewTextMessage(text)).Do(); err != nil {
-		log.Print(err)
+		log.Println(err)
 	}
 }
 

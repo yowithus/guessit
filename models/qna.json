@@ -637,31 +637,6 @@
     ]
   },
   {
-    "question": "Perusahaan asuransi?",
-    "answers": [
-      {
-        "text": "prudential",
-        "score": 39
-      },
-      {
-        "text": "astra",
-        "score": 38
-      },
-      {
-        "text": "garda oto",
-        "score": 11
-      },
-      {
-        "text": "bumi putra",
-        "score": 10
-      },
-      {
-        "text": "allianz",
-        "score": 2
-      }
-    ]
-  },
-  {
     "question": "Apa yg biasanya dilakukan orang di depan komputer?",
     "answers": [
       {
