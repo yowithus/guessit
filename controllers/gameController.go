@@ -45,15 +45,17 @@ func Play(c *gin.Context) {
 		if err != nil {
 			log.Println(err)
 		}
-		name := profile.DisplayName
+		// name := profile.DisplayName
 
 		log.Println("111111111")
 		log.Println(userID)
 		log.Println("222222222")
 		log.Println(profile)
 		log.Println("333333333")
-		log.Println(name)
+		log.Println(profile.DisplayName)
 		log.Println("444444444")
+
+		name := profile.DisplayName
 
 		if event.Type == linebot.EventTypeMessage {
 			switch message := event.Message.(type) {
