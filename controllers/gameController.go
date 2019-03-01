@@ -282,11 +282,11 @@ func help() {
 			letter = c
 		} else if len(answerText) > 6 && (j == 0 || j == 2 || j == 5 || j == len(answerText)-1) {
 			letter = c
-		} else if len(answerText) > 8 && (j == 0 || j == 2 || j == 5 || j == 6 || j == len(answerText)-1) {
+		} else if len(answerText) > 8 && (j == 0 || j == 2 || j == 5 || j == 7 || j == len(answerText)-1) {
 			letter = c
 		} else if len(answerText) > 10 && (j == 0 || j == 2 || j == 5 || j == 7 || j == 8 || j == len(answerText)-1) {
 			letter = c
-		} else if len(answerText) > 12 && (j == 0 || j == 2 || j == 5 || j == 7 || j == 8 || j == 10 || j == len(answerText)-1) {
+		} else if len(answerText) > 12 && (j == 0 || j == 2 || j == 5 || j == 7 || j == 8 || j == 11 || j == len(answerText)-1) {
 			letter = c
 		} else if len(answerText) > 14 && (j == 0 || j == 2 || j == 5 || j == 7 || j == 8 || j == 11 || j == 12 || j == len(answerText)-1) {
 			letter = c
