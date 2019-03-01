@@ -133,8 +133,6 @@ func start() {
 	answers := qna.Answers
 	question := qna.Question
 
-	log.Println(question)
-
 	for i := range answers {
 		num := i + 1
 		correctAnswers = append(correctAnswers, "")
@@ -234,6 +232,12 @@ func guess(input string, user models.User) {
 			}
 
 			if correct == len(answers) {
+				sort.Slice(scoreBoards, func(i, j int) bool {
+					if scoreBoards[i].Score > scoreBoards[j].Score {
+						return true
+					}
+					return false
+				})
 				var scoreFullBoards []string
 				for i, scoreBoard := range scoreBoards {
 					num := i + 1
