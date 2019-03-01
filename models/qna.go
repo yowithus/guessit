@@ -11,6 +11,12 @@ type Answer struct {
 }
 
 type ScoreBoard struct {
-	Name  string `json: "name"`
-	Score int    `json: "score"`
+	UserID string `json: "user_id"`
+	Name   string `json: "name"`
+	Score  int    `json: "score"`
+}
+
+type User struct {
+	UserID string `json: "user_id"`
+	Name   string `json: "name"`
 }

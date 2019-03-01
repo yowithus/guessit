@@ -55,10 +55,6 @@ func Play(c *gin.Context) {
 			log.Println(err)
 		}
 
-		log.Println("-------")
-		log.Println(userID)
-		log.Println("-------")
-
 		var name string
 		if profile != nil {
 			name = profile.DisplayName
@@ -69,12 +65,17 @@ func Play(c *gin.Context) {
 			}
 		}
 
+		user := models.User{
+			UserID: userID,
+			Name:   name,
+		}
+
 		if event.Type == linebot.EventTypeMessage {
 			switch message := event.Message.(type) {
 			case *linebot.TextMessage:
 				input := message.Text
 				replyText = ""
-				game(input, name)
+				game(input, user)
 				reply(replyText)
 			}
 		}
@@ -85,13 +86,20 @@ func Play(c *gin.Context) {
 
 func PlayTest(c *gin.Context) {
 	input := c.Query("input")
+	userID := c.Query("userId")
 	name := c.Query("name")
+
+	user := models.User{
+		UserID: userID,
+		Name:   name,
+	}
+
 	replyText = ""
-	game(input, name)
+	game(input, user)
 	c.String(http.StatusOK, replyText)
 }
 
-func game(input string, name string) {
+func game(input string, user models.User) {
 	switch input {
 	case "/mulai":
 		start()
@@ -106,7 +114,7 @@ func game(input string, name string) {
 	case "/perintah":
 		command()
 	default:
-		guess(input, name)
+		guess(input, user)
 	}
 }
 
@@ -124,6 +132,8 @@ func start() {
 
 	answers := qna.Answers
 	question := qna.Question
+
+	log.Println(question)
 
 	for i := range answers {
 		num := i + 1
@@ -184,7 +194,7 @@ func end() {
 	reset()
 }
 
-func guess(input string, name string) {
+func guess(input string, user models.User) {
 	if !isStarted {
 		return
 	}
@@ -197,6 +207,8 @@ func guess(input string, name string) {
 
 	answers := qna.Answers
 	question := qna.Question
+	userID := user.UserID
+	name := user.Name
 
 	for i, answer := range answers {
 		answerText := answer.Text
@@ -212,17 +224,24 @@ func guess(input string, name string) {
 
 			scoreExists := false
 			for j, scoreBoard := range scoreBoards {
-				if scoreBoard.Name == name {
+				if scoreBoard.UserID == userID {
 					scoreBoards[j].Score = scoreBoard.Score + answerScore
 					scoreExists = true
 				}
 			}
 			if !scoreExists {
-				scoreBoards = append(scoreBoards, models.ScoreBoard{Name: name, Score: answerScore})
+				scoreBoards = append(scoreBoards, models.ScoreBoard{UserID: userID, Name: name, Score: answerScore})
 			}
 
 			if correct == len(answers) {
-				replyText = fmt.Sprintf("%s\n\n%s", replyText, "Selamat kamu udah berhasil jawab semua pertanyaan dengan benar!! Ketik /mulai kalo mau main lagi :)")
+				var scoreFullBoards []string
+				for i, scoreBoard := range scoreBoards {
+					num := i + 1
+					scoreFullBoards = append(scoreFullBoards, fmt.Sprintf("%d. %s - %d", num, scoreBoard.Name, scoreBoard.Score))
+				}
+				highestScoreBoard := scoreBoards[0]
+				scoreFullBoardsString := strings.Join(scoreFullBoards[:], "\n")
+				replyText = fmt.Sprintf("%s\n\nDan score sementara saat ini adalah *jrengjreng*\n%s\n\nWoohoo selamat %s saat ini kamu yang paling unggul lho!", replyText, scoreFullBoardsString, highestScoreBoard.Name)
 				reset()
 			}
 			return
@@ -251,7 +270,7 @@ func help() {
 	var letter rune
 
 	for j, c := range answerText {
-		if c == ' ' || c == '-' {
+		if c == ' ' || c == '-' || c == '&' {
 			letter = c
 		} else {
 			letter = '_'
@@ -263,14 +282,20 @@ func help() {
 			letter = c
 		} else if len(answerText) > 6 && (j == 0 || j == 2 || j == 5 || j == len(answerText)-1) {
 			letter = c
-		} else if len(answerText) > 8 && (j == 0 || j == 2 || j == 5 || j == 7 || j == len(answerText)-1) {
+		} else if len(answerText) > 8 && (j == 0 || j == 2 || j == 5 || j == 6 || j == len(answerText)-1) {
+			letter = c
+		} else if len(answerText) > 10 && (j == 0 || j == 2 || j == 5 || j == 7 || j == 8 || j == len(answerText)-1) {
+			letter = c
+		} else if len(answerText) > 12 && (j == 0 || j == 2 || j == 5 || j == 7 || j == 8 || j == 10 || j == len(answerText)-1) {
+			letter = c
+		} else if len(answerText) > 14 && (j == 0 || j == 2 || j == 5 || j == 7 || j == 8 || j == 11 || j == 12 || j == len(answerText)-1) {
 			letter = c
 		}
 
 		hint = fmt.Sprintf("%s %c", hint, letter)
 	}
 
-	replyText = fmt.Sprintf("Ngestuck yah? Ini aku bantu dikit deh\nHint:%s\nTetep semangat :)", hint)
+	replyText = fmt.Sprintf("Ngestuck yah? Aku bantu dikit deh\nHint:%s", hint)
 	return
 }
 
@@ -296,7 +321,7 @@ func score() {
 	highestScoreBoard := scoreBoards[0]
 
 	scoreFullBoardsString := strings.Join(scoreFullBoards[:], "\n")
-	replyText = fmt.Sprintf("Hiyaaa dan score sementara saat ini adalah *jrengjreng*\n%s\n\nWoohoo selamat %s saat ini kamu yang paling unggul!", scoreFullBoardsString, highestScoreBoard.Name)
+	replyText = fmt.Sprintf("Hiyaaa dan score sementara saat ini adalah *jrengjreng*\n%s\n\nWoohoo selamat %s saat ini kamu yang paling unggul lho!", scoreFullBoardsString, highestScoreBoard.Name)
 }
 
 func command() {
