@@ -280,19 +280,28 @@ func help() {
 			letter = '_'
 		}
 
-		if len(answerText) <= 4 && (j == 0 || j == len(answerText)-1) {
+		if j == 0 || j == len(answerText)-1 {
 			letter = c
-		} else if len(answerText) > 4 && (j == 0 || j == 2 || j == len(answerText)-1) {
+		}
+		if len(answerText) > 3 && j == 2 {
 			letter = c
-		} else if len(answerText) > 6 && (j == 0 || j == 2 || j == 5 || j == len(answerText)-1) {
+		}
+		if len(answerText) > 5 && j == 3 {
 			letter = c
-		} else if len(answerText) > 8 && (j == 0 || j == 2 || j == 5 || j == 7 || j == len(answerText)-1) {
+		}
+		if len(answerText) > 7 && j == 6 {
 			letter = c
-		} else if len(answerText) > 10 && (j == 0 || j == 2 || j == 5 || j == 7 || j == 8 || j == len(answerText)-1) {
+		}
+		if len(answerText) > 9 && j == 7 {
 			letter = c
-		} else if len(answerText) > 12 && (j == 0 || j == 2 || j == 5 || j == 7 || j == 8 || j == 11 || j == len(answerText)-1) {
+		}
+		if len(answerText) > 11 && j == 9 {
 			letter = c
-		} else if len(answerText) > 14 && (j == 0 || j == 2 || j == 5 || j == 7 || j == 8 || j == 11 || j == 12 || j == len(answerText)-1) {
+		}
+		if len(answerText) > 13 && j == 12 {
+			letter = c
+		}
+		if len(answerText) > 15 && j == 13 {
 			letter = c
 		}
 

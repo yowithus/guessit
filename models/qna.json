@@ -4,7 +4,7 @@
     "answers": [
       {
         "text": "naruto uzumaki",
-        "score": 33
+        "score": 30
       },
       {
         "text": "sasuke uchiha",
@@ -12,19 +12,19 @@
       },
       {
         "text": "sakura haruno",
-        "score": 25
+        "score": 23
       },
       {
         "text": "kakashi hatake",
-        "score": 18
+        "score": 10
       },
       {
         "text": "shikamaru nara",
-        "score": 12
+        "score": 7
       },
       {
         "text": "chouji akimichi",
-        "score": 5
+        "score": 3
       }
     ]
   },
@@ -628,7 +628,7 @@
     "question": "Apa yg biasanya dilakukan orang di depan komputer?",
     "answers": [
       {
-        "text": "internet",
+        "text": "main internet",
         "score": 39
       },
       {
@@ -644,11 +644,11 @@
         "score": 7
       },
       {
-        "text": "nonton",
+        "text": "menonton",
         "score": 2
       },
       {
-        "text": "dengar musik",
+        "text": "mendengaran musik",
         "score": 1
       }
     ]
@@ -752,6 +752,10 @@
         "score": 11
       },
       {
+        "text": "avanza",
+        "score": 3
+      },
+      {
         "text": "rush",
         "score": 3
       }
@@ -806,11 +810,11 @@
         "score": 17
       },
       {
-        "text": "popok",
+        "text": "popok bayi",
         "score": 11
       },
       {
-        "text": "korek",
+        "text": "korek api",
         "score": 6
       },
       {
@@ -939,7 +943,7 @@
     "question": "Alat musik daerah?",
     "answers": [
       {
-        "text": "serulin",
+        "text": "seruling",
         "score": 29
       },
       {
@@ -1063,7 +1067,7 @@
         "score": 3
       },
       {
-        "text": "kerak telor",
+        "text": "sate",
         "score": 2
       }
     ]
@@ -1092,6 +1096,10 @@
         "score": 4
       },
       {
+        "text": "laba-laba",
+        "score": 3
+      },
+      {
         "text": "belalang",
         "score": 2
       }
@@ -1109,12 +1117,16 @@
         "score": 27
       },
       {
-        "text": "wajah",
+        "text": "muka",
         "score": 19
       },
       {
         "text": "leher",
         "score": 11
+      },
+      {
+        "text": "hidung",
+        "score": 5
       }
     ]
   },
@@ -1123,7 +1135,7 @@
     "answers": [
       {
         "text": "gitar",
-        "score": 27
+        "score": 47
       },
       {
         "text": "drum",
@@ -1189,7 +1201,7 @@
     "answers": [
       {
         "text": "capek",
-        "score": 28
+        "score": 31
       },
       {
         "text": "manja",
@@ -1254,7 +1266,7 @@
         "score": 27
       },
       {
-        "text": "penalty",
+        "text": "penalti",
         "score": 13
       },
       {
@@ -1280,7 +1292,7 @@
     "answers": [
       {
         "text": "buaya",
-        "score": 30
+        "score": 32
       },
       {
         "text": "ikan",
@@ -1313,23 +1325,23 @@
     "answers": [
       {
         "text": "chiki",
-        "score": 28
+        "score": 42
       },
       {
         "text": "permen",
-        "score": 27
+        "score": 33
       },
       {
         "text": "manisan",
-        "score": 13
+        "score": 12
       },
       {
         "text": "cokelat",
-        "score": 11
+        "score": 10
       },
       {
         "text": "coki-coki",
-        "score": 10
+        "score": 3
       }
     ]
   },
@@ -1363,27 +1375,27 @@
     "answers": [
       {
         "text": "majalah",
-        "score": 28
+        "score": 42
       },
       {
         "text": "buku resep",
-        "score": 27
+        "score": 22
       },
       {
         "text": "internet",
-        "score": 13
+        "score": 15
       },
       {
         "text": "televisi",
-        "score": 11
-      },
-      {
-        "text": "orang tua",
         "score": 10
       },
       {
+        "text": "orang tua",
+        "score": 5
+      },
+      {
         "text": "kursus",
-        "score": 6
+        "score": 3
       }
     ]
   },
@@ -1465,6 +1477,10 @@
         "score": 18
       },
       {
+        "text": "buku",
+        "score": 15
+      },
+      {
         "text": "alat tulis",
         "score": 11
       }
@@ -1532,27 +1548,31 @@
     "question": "Buah yang kecut dan asam?",
     "answers": [
       {
-        "text": "jeruk",
+        "text": "salak",
         "score": 33
       },
       {
-        "text": "lemon",
+        "text": "jeruk",
         "score": 25
       },
       {
-        "text": "nanas",
-        "score": 20
-      },
-      {
-        "text": "belimbing",
+        "text": "lemon",
         "score": 12
       },
       {
-        "text": "apel",
+        "text": "belimbing",
+        "score": 11
+      },
+      {
+        "text": "mangga muda",
+        "score": 8
+      },
+      {
+        "text": "nanas",
         "score": 7
       },
       {
-        "text": "salak",
+        "text": "apel",
         "score": 4
       }
     ]
@@ -1640,7 +1660,7 @@
       },
       {
         "text": "tulisan",
-        "score": 1
+        "score": 2
       }
     ]
   },
@@ -1649,15 +1669,15 @@
     "answers": [
       {
         "text": "burung",
-        "score": 35
+        "score": 42
       },
       {
         "text": "anjing",
-        "score": 24
+        "score": 28
       },
       {
         "text": "kelinci",
-        "score": 13
+        "score": 16
       },
       {
         "text": "ular",
@@ -1691,6 +1711,10 @@
       {
         "text": "game",
         "score": 12
+      },
+      {
+        "text": "nyanyian",
+        "score": 5
       }
     ]
   },
@@ -1762,11 +1786,11 @@
     "answers": [
       {
         "text": "nasi uduk",
-        "score": 32
+        "score": 35
       },
       {
         "text": "gado-gado",
-        "score": 24
+        "score": 27
       },
       {
         "text": "nasi rames",
@@ -1906,10 +1930,6 @@
     "question": "Hewan tak berkaki?",
     "answers": [
       {
-        "text": "ikan",
-        "score": 40
-      },
-      {
         "text": "ular",
         "score": 31
       },
@@ -2030,11 +2050,11 @@
         "score": 17
       },
       {
-        "text": "voli",
+        "text": "main voli",
         "score": 13
       },
       {
-        "text": "foto",
+        "text": "berfoto",
         "score": 10
       },
       {
@@ -2164,10 +2184,6 @@
       {
         "text": "berenang",
         "score": 5
-      },
-      {
-        "text": "lari",
-        "score": 2
       }
     ]
   },
@@ -2604,7 +2620,7 @@
     ]
   },
   {
-    "question": "Macam-macam jenis sayuran ?",
+    "question": "Macam-macam jenis sayuran?",
     "answers": [
       {
         "text": "kacang panjang",
@@ -2977,7 +2993,7 @@
     ]
   },
   {
-    "question": "Kegiatan apa yang dilakukan luar rumah masih pakai piyama?",
+    "question": "Kegiatan apa yang dilakukan di luar rumah masih pakai piyama?",
     "answers": [
       {
         "text": "belanja",
@@ -3068,11 +3084,11 @@
     "answers": [
       {
         "text": "kelelawar",
-        "score": 41
+        "score": 33
       },
       {
         "text": "serigala",
-        "score": 33
+        "score": 25
       },
       {
         "text": "anjing",
@@ -3084,7 +3100,7 @@
       },
       {
         "text": "kucing",
-        "score": 10
+        "score": 8
       }
     ]
   },
@@ -3093,11 +3109,11 @@
     "answers": [
       {
         "text": "berkeringat",
-        "score": 29
+        "score": 40
       },
       {
         "text": "gelisah",
-        "score": 23
+        "score": 29
       },
       {
         "text": "bingung",
@@ -3118,7 +3134,7 @@
     "answers": [
       {
         "text": "keuangan",
-        "score": 38
+        "score": 34
       },
       {
         "text": "busana",
@@ -3143,35 +3159,35 @@
     "answers": [
       {
         "text": "diam",
-        "score": 44
+        "score": 26
       },
       {
         "text": "ke dokter",
-        "score": 36
+        "score": 22
       },
       {
         "text": "kumur-kumur",
-        "score": 29
-      },
-      {
-        "text": "pegang pipi",
-        "score": 24
-      },
-      {
-        "text": "marah-marah",
         "score": 17
       },
       {
+        "text": "pegang pipi",
+        "score": 14
+      },
+      {
+        "text": "marah-marah",
+        "score": 10
+      },
+      {
         "text": "merintih",
-        "score": 13
+        "score": 5
       },
       {
         "text": "tidur",
-        "score": 8
+        "score": 4
       },
       {
         "text": "minum obat",
-        "score": 3
+        "score": 2
       }
     ]
   },
@@ -3180,27 +3196,27 @@
     "answers": [
       {
         "text": "lelah",
-        "score": 32
+        "score": 33
       },
       {
         "text": "setoran cukup",
-        "score": 28
+        "score": 26
       },
       {
         "text": "sakit",
-        "score": 21
-      },
-      {
-        "text": "penumpang sepi",
         "score": 17
       },
       {
+        "text": "penumpang sepi",
+        "score": 13
+      },
+      {
         "text": "mobil rusak",
-        "score": 12
+        "score": 7
       },
       {
         "text": "macet",
-        "score": 7
+        "score": 4
       }
     ]
   },
@@ -3209,7 +3225,7 @@
     "answers": [
       {
         "text": "gagang pintu",
-        "score": 28
+        "score": 39
       },
       {
         "text": "jendela",
@@ -3234,31 +3250,31 @@
     "answers": [
       {
         "text": "mainan",
-        "score": 49
+        "score": 32
       },
       {
         "text": "remote",
-        "score": 34
+        "score": 21
       },
       {
         "text": "sepatu",
-        "score": 23
+        "score": 17
       },
       {
         "text": "piring",
-        "score": 19
-      },
-      {
-        "text": "tas",
         "score": 13
       },
       {
+        "text": "tas",
+        "score": 10
+      },
+      {
         "text": "baju",
-        "score": 11
+        "score": 5
       },
       {
         "text": "handuk",
-        "score": 9
+        "score": 2
       }
     ]
   },
@@ -3267,27 +3283,27 @@
     "answers": [
       {
         "text": "kerja bagus",
-        "score": 34
+        "score": 33
       },
       {
         "text": "rajin",
-        "score": 25
+        "score": 27
       },
       {
         "text": "disiplin",
-        "score": 19
+        "score": 18
       },
       {
         "text": "multitalenta",
-        "score": 15
+        "score": 10
       },
       {
         "text": "jujur",
-        "score": 12
+        "score": 8
       },
       {
         "text": "loyal",
-        "score": 8
+        "score": 4
       }
     ]
   },
@@ -3296,19 +3312,19 @@
     "answers": [
       {
         "text": "ayam goreng",
-        "score": 29
+        "score": 49
       },
       {
         "text": "kentang goreng",
-        "score": 18
+        "score": 30
       },
       {
         "text": "sosis",
-        "score": 3
+        "score": 17
       },
       {
         "text": "otak-otak",
-        "score": 6
+        "score": 4
       }
     ]
   },
@@ -3317,11 +3333,11 @@
     "answers": [
       {
         "text": "hotel",
-        "score": 35
+        "score": 45
       },
       {
         "text": "penginapan",
-        "score": 27
+        "score": 31
       },
       {
         "text": "toilet",
@@ -3329,7 +3345,7 @@
       },
       {
         "text": "tempat bersejarah",
-        "score": 8
+        "score": 6
       },
       {
         "text": "tempat belanja",
@@ -3346,11 +3362,11 @@
       },
       {
         "text": "kayu",
-        "score": 21
+        "score": 24
       },
       {
         "text": "suku dayak",
-        "score": 16
+        "score": 20
       },
       {
         "text": "sungai",
@@ -3358,7 +3374,7 @@
       },
       {
         "text": "khatulistiwa",
-        "score": 5
+        "score": 6
       },
       {
         "text": "orang utan",
@@ -3375,11 +3391,11 @@
     "answers": [
       {
         "text": "menyiram",
-        "score": 30
+        "score": 36
       },
       {
         "text": "cuci tangan",
-        "score": 21
+        "score": 24
       },
       {
         "text": "berdandan",
@@ -3408,15 +3424,15 @@
       },
       {
         "text": "pendidikan",
-        "score": 14
+        "score": 21
       },
       {
         "text": "asal",
-        "score": 4
+        "score": 10
       },
       {
         "text": "keseriusan",
-        "score": 3
+        "score": 4
       }
     ]
   },
@@ -3429,7 +3445,7 @@
       },
       {
         "text": "kartu kredit",
-        "score": 15
+        "score": 26
       },
       {
         "text": "asuransi",
@@ -3450,11 +3466,11 @@
     "answers": [
       {
         "text": "tarzan",
-        "score": 26
+        "score": 36
       },
       {
         "text": "scooby doo",
-        "score": 21
+        "score": 23
       },
       {
         "text": "lilo & stitch",
@@ -3500,7 +3516,7 @@
     "answers": [
       {
         "text": "hujan",
-        "score": 26
+        "score": 35
       },
       {
         "text": "malas",
@@ -3512,11 +3528,11 @@
       },
       {
         "text": "jauh",
-        "score": 6
+        "score": 11
       },
       {
         "text": "kemalaman",
-        "score": 5
+        "score": 7
       },
       {
         "text": "macet",
@@ -3533,7 +3549,7 @@
     "answers": [
       {
         "text": "berisik",
-        "score": 34
+        "score": 40
       },
       {
         "text": "ponsel berbunyi",
@@ -3545,11 +3561,11 @@
       },
       {
         "text": "makanan dari luar",
-        "score": 8
+        "score": 10
       },
       {
         "text": "senjata tajam",
-        "score": 4
+        "score": 5
       },
       {
         "text": "mengangkat kaki",
@@ -3562,7 +3578,7 @@
     "answers": [
       {
         "text": "alamat",
-        "score": 27
+        "score": 37
       },
       {
         "text": "tanggal",
@@ -3578,7 +3594,7 @@
       },
       {
         "text": "waktu",
-        "score": 5
+        "score": 4
       }
     ]
   },
@@ -3587,11 +3603,11 @@
     "answers": [
       {
         "text": "sampah",
-        "score": 31
+        "score": 38
       },
       {
         "text": "piring",
-        "score": 24
+        "score": 30
       },
       {
         "text": "gelas",
@@ -3608,7 +3624,7 @@
     "answers": [
       {
         "text": "dicuci",
-        "score": 34
+        "score": 42
       },
       {
         "text": "digunting",
@@ -3674,7 +3690,7 @@
       },
       {
         "text": "kuburan",
-        "score": 6
+        "score": 8
       },
       {
         "text": "tempat tidur",
@@ -3736,11 +3752,11 @@
       },
       {
         "text": "ranting pohon",
-        "score": 6
+        "score": 10
       },
       {
         "text": "kotoran burung",
-        "score": 5
+        "score": 7
       },
       {
         "text": "jemuran",
@@ -3753,7 +3769,7 @@
     "answers": [
       {
         "text": "tutup hidung",
-        "score": 32
+        "score": 42
       },
       {
         "text": "pergi",
@@ -3778,11 +3794,11 @@
     "answers": [
       {
         "text": "baterai habis",
-        "score": 27
+        "score": 35
       },
       {
         "text": "mau ke toilet",
-        "score": 21
+        "score": 25
       },
       {
         "text": "pulsa habis",
@@ -3819,7 +3835,7 @@
       },
       {
         "text": "kendaraan",
-        "score": 12
+        "score": 14
       },
       {
         "text": "buku",
@@ -3844,7 +3860,7 @@
       },
       {
         "text": "malas",
-        "score": 26
+        "score": 35
       },
       {
         "text": "ramai",
@@ -3861,15 +3877,15 @@
     "answers": [
       {
         "text": "belanja",
-        "score": 35
+        "score": 39
       },
       {
         "text": "membayar hutang",
-        "score": 21
+        "score": 27
       },
       {
         "text": "membayar tagihan",
-        "score": 15
+        "score": 20
       },
       {
         "text": "menabung",
@@ -3894,11 +3910,11 @@
       },
       {
         "text": "oranye",
-        "score": 12
+        "score": 18
       },
       {
         "text": "polusi",
-        "score": 8
+        "score": 14
       },
       {
         "text": "bergetar",
@@ -3915,7 +3931,7 @@
     "answers": [
       {
         "text": "lampu",
-        "score": 31
+        "score": 45
       },
       {
         "text": "obat nyamuk",
@@ -3936,7 +3952,7 @@
     "answers": [
       {
         "text": "kaos kaki",
-        "score": 48
+        "score": 51
       },
       {
         "text": "plester",
@@ -3982,11 +3998,11 @@
     "answers": [
       {
         "text": "olahraga",
-        "score": 29
+        "score": 39
       },
       {
         "text": "pelihara kumis",
-        "score": 23
+        "score": 29
       },
       {
         "text": "pakai jas",
@@ -4011,11 +4027,11 @@
     "answers": [
       {
         "text": "salah tingkah",
-        "score": 23
+        "score": 31
       },
       {
         "text": "menghindar",
-        "score": 21
+        "score": 25
       },
       {
         "text": "bohong",
@@ -4086,7 +4102,7 @@
     "answers": [
       {
         "text": "cabut gigi",
-        "score": 30
+        "score": 34
       },
       {
         "text": "jarum suntik",
@@ -4114,7 +4130,7 @@
         "score": 32
       },
       {
-        "text": "tidak strategis",
+        "text": "lokasi",
         "score": 24
       },
       {
@@ -4132,6 +4148,10 @@
       {
         "text": "surat tidak lengkap",
         "score": 5
+      },
+      {
+        "text": "lingkungan",
+        "score": 4
       }
     ]
   },
@@ -4140,7 +4160,7 @@
     "answers": [
       {
         "text": "main bersama",
-        "score": 26
+        "score": 36
       },
       {
         "text": "takut",
@@ -4160,7 +4180,7 @@
       },
       {
         "text": "kasih tahu teman",
-        "score": 3
+        "score": 5
       }
     ]
   },
@@ -4181,7 +4201,7 @@
       },
       {
         "text": "kurang orang",
-        "score": 5
+        "score": 7
       },
       {
         "text": "kertas habis",
@@ -4261,7 +4281,7 @@
     "answers": [
       {
         "text": "pipis",
-        "score": 32
+        "score": 36
       },
       {
         "text": "lari ke toilet",
@@ -4282,7 +4302,7 @@
     "answers": [
       {
         "text": "pakai jaket",
-        "score": 37
+        "score": 45
       },
       {
         "text": "makan teratur",
@@ -4298,7 +4318,7 @@
       },
       {
         "text": "minum air hangat",
-        "score": 4
+        "score": 8
       }
     ]
   },
@@ -4307,7 +4327,7 @@
     "answers": [
       {
         "text": "main hp",
-        "score": 41
+        "score": 45
       },
       {
         "text": "membaca",
@@ -4315,7 +4335,7 @@
       },
       {
         "text": "merokok",
-        "score": 11
+        "score": 15
       },
       {
         "text": "mendengarkan musik",
@@ -4328,11 +4348,11 @@
     "answers": [
       {
         "text": "india",
-        "score": 29
+        "score": 39
       },
       {
         "text": "indonesia",
-        "score": 23
+        "score": 31
       },
       {
         "text": "jepang",
@@ -4353,7 +4373,7 @@
     "answers": [
       {
         "text": "mirc",
-        "score": 34
+        "score": 44
       },
       {
         "text": "yahoo",
@@ -4386,7 +4406,7 @@
       },
       {
         "text": "kebakaran",
-        "score": 2
+        "score": 10
       }
     ]
   },
@@ -4395,19 +4415,19 @@
     "answers": [
       {
         "text": "hotel",
-        "score": 44
+        "score": 41
       },
       {
         "text": "tempat judi",
-        "score": 34
-      },
-      {
-        "text": "diskotik",
         "score": 23
       },
       {
+        "text": "diskotik",
+        "score": 16
+      },
+      {
         "text": "pub",
-        "score": 14
+        "score": 13
       },
       {
         "text": "bar",
@@ -4440,7 +4460,7 @@
       },
       {
         "text": "sampoerna",
-        "score": 3
+        "score": 4
       }
     ]
   },
@@ -4449,19 +4469,19 @@
     "answers": [
       {
         "text": "bayangan",
-        "score": 33
+        "score": 46
       },
       {
         "text": "bulan",
-        "score": 25
+        "score": 29
       },
       {
         "text": "matahari",
-        "score": 13
+        "score": 15
       },
       {
         "text": "kompas",
-        "score": 8
+        "score": 10
       }
     ]
   },
@@ -4470,11 +4490,11 @@
     "answers": [
       {
         "text": "britney spears",
-        "score": 33
+        "score": 39
       },
       {
         "text": "shakira",
-        "score": 24
+        "score": 27
       },
       {
         "text": "jennifer lopez",
@@ -4482,20 +4502,20 @@
       },
       {
         "text": "christina aguilera",
-        "score": 7
+        "score": 10
       },
       {
         "text": "madonna",
-        "score": 1
+        "score": 9
       }
     ]
   },
   {
-    "question": "Berhubungan dgn kombinasi?",
+    "question": "Berhubungan dengan kombinasi?",
     "answers": [
       {
         "text": "warna",
-        "score": 43
+        "score": 45
       },
       {
         "text": "pakaian",
@@ -4516,15 +4536,15 @@
     "answers": [
       {
         "text": "peterpan",
-        "score": 31
+        "score": 41
       },
       {
         "text": "wendy",
-        "score": 22
+        "score": 32
       },
       {
         "text": "kapten hook",
-        "score": 17
+        "score": 19
       },
       {
         "text": "tinkerbell",
@@ -4537,7 +4557,7 @@
     "answers": [
       {
         "text": "halilintar",
-        "score": 36
+        "score": 41
       },
       {
         "text": "niagara",
@@ -4562,7 +4582,7 @@
     "answers": [
       {
         "text": "burung",
-        "score": 39
+        "score": 40
       },
       {
         "text": "rudal",
@@ -4570,11 +4590,11 @@
       },
       {
         "text": "tempek",
-        "score": 21
+        "score": 15
       },
       {
         "text": "apem",
-        "score": 15
+        "score": 12
       }
     ]
   },
@@ -4583,7 +4603,7 @@
     "answers": [
       {
         "text": "ujian",
-        "score": 31
+        "score": 40
       },
       {
         "text": "kuliah",
@@ -4608,7 +4628,7 @@
     ]
   },
   {
-    "question": "Batuan mineral yg berharga tinggi?",
+    "question": "Batuan mineral yang berharga tinggi?",
     "answers": [
       {
         "text": "berlian",
@@ -4620,19 +4640,19 @@
       },
       {
         "text": "mutiara",
-        "score": 18
+        "score": 16
       },
       {
         "text": "jamrud",
-        "score": 14
+        "score": 13
       },
       {
         "text": "permata",
-        "score": 12
+        "score": 10
       },
       {
         "text": "delima",
-        "score": 3
+        "score": 5
       }
     ]
   },
@@ -4641,27 +4661,27 @@
     "answers": [
       {
         "text": "mesir",
-        "score": 40
+        "score": 39
       },
       {
         "text": "aljazair",
-        "score": 28
+        "score": 21
       },
       {
         "text": "libya",
-        "score": 22
+        "score": 16
       },
       {
         "text": "maroko",
-        "score": 15
-      },
-      {
-        "text": "tunisia",
         "score": 13
       },
       {
-        "text": "mauritania",
+        "text": "tunisia",
         "score": 8
+      },
+      {
+        "text": "mauritania",
+        "score": 3
       }
     ]
   },
@@ -4670,7 +4690,7 @@
     "answers": [
       {
         "text": "erlangga",
-        "score": 27
+        "score": 51
       },
       {
         "text": "gramedia",
@@ -4678,15 +4698,15 @@
       },
       {
         "text": "penerbit andi",
-        "score": 21
+        "score": 10
       },
       {
         "text": "intan pariwara",
-        "score": 12
+        "score": 8
       },
       {
         "text": "grafindo",
-        "score": 7
+        "score": 6
       }
     ]
   },
@@ -4695,39 +4715,31 @@
     "answers": [
       {
         "text": "bali",
-        "score": 47
+        "score": 25
       },
       {
         "text": "danau toba",
-        "score": 33
+        "score": 20
       },
       {
         "text": "malioboro",
-        "score": 29
-      },
-      {
-        "text": "puncak",
-        "score": 22
-      },
-      {
-        "text": "borobudur",
-        "score": 19
-      },
-      {
-        "text": "ancol",
         "score": 17
       },
       {
-        "text": "cibubur",
+        "text": "puncak",
         "score": 14
       },
       {
-        "text": "dolly",
-        "score": 5
+        "text": "borobudur",
+        "score": 10
+      },
+      {
+        "text": "ancol",
+        "score": 9
       },
       {
         "text": "dunia fantasi",
-        "score": 2
+        "score": 5
       }
     ]
   },
@@ -4736,27 +4748,27 @@
     "answers": [
       {
         "text": "riyal",
-        "score": 35
+        "score": 34
       },
       {
         "text": "rupee",
-        "score": 25
+        "score": 21
       },
       {
         "text": "ringgit",
-        "score": 19
-      },
-      {
-        "text": "rupiah",
         "score": 16
       },
       {
-        "text": "riel",
+        "text": "rupiah",
         "score": 12
       },
       {
+        "text": "riel",
+        "score": 9
+      },
+      {
         "text": "renminbi",
-        "score": 10
+        "score": 8
       }
     ]
   },
@@ -4765,43 +4777,43 @@
     "answers": [
       {
         "text": "kujang",
-        "score": 50
+        "score": 22
       },
       {
         "text": "mandau",
-        "score": 44
+        "score": 19
       },
       {
         "text": "keris",
-        "score": 39
+        "score": 17
       },
       {
         "text": "badik",
-        "score": 38
+        "score": 14
       },
       {
         "text": "rudus",
-        "score": 29
+        "score": 10
       },
       {
         "text": "parang",
-        "score": 20
-      },
-      {
-        "text": "golok",
-        "score": 18
-      },
-      {
-        "text": "terapang",
-        "score": 12
-      },
-      {
-        "text": "kelewang",
         "score": 7
       },
       {
-        "text": "kuduk",
+        "text": "golok",
         "score": 5
+      },
+      {
+        "text": "terapang",
+        "score": 4
+      },
+      {
+        "text": "kelewang",
+        "score": 3
+      },
+      {
+        "text": "kuduk",
+        "score": 1
       }
     ]
   },
@@ -4822,11 +4834,11 @@
       },
       {
         "text": "berat ringan",
-        "score": 8
+        "score": 12
       },
       {
         "text": "penjelajah",
-        "score": 4
+        "score": 6
       }
     ]
   },
@@ -4835,31 +4847,31 @@
     "answers": [
       {
         "text": "kutilang",
-        "score": 44
+        "score": 24
       },
       {
         "text": "beo",
-        "score": 35
+        "score": 20
       },
       {
         "text": "cendrawasih",
-        "score": 30
+        "score": 18
       },
       {
         "text": "elang",
-        "score": 28
+        "score": 15
       },
       {
         "text": "pipit",
-        "score": 17
+        "score": 12
       },
       {
         "text": "gagak",
-        "score": 13
+        "score": 8
       },
       {
         "text": "kakatua",
-        "score": 6
+        "score": 3
       }
     ]
   },
@@ -4868,19 +4880,19 @@
     "answers": [
       {
         "text": "perfect tense",
-        "score": 22
+        "score": 31
       },
       {
         "text": "past tense",
-        "score": 19
+        "score": 27
       },
       {
         "text": "present tense",
-        "score": 13
+        "score": 24
       },
       {
         "text": "future tense",
-        "score": 7
+        "score": 18
       }
     ]
   },
@@ -4889,23 +4901,23 @@
     "answers": [
       {
         "text": "tentara",
-        "score": 40
+        "score": 31
       },
       {
         "text": "peragawati",
-        "score": 32
+        "score": 22
       },
       {
         "text": "model",
-        "score": 21
+        "score": 17
       },
       {
         "text": "pramugari",
-        "score": 16
+        "score": 12
       },
       {
         "text": "pilot",
-        "score": 12
+        "score": 10
       },
       {
         "text": "pramugara",
@@ -4922,35 +4934,35 @@
     "answers": [
       {
         "text": "selada",
-        "score": 37
+        "score": 23
       },
       {
         "text": "mentega",
-        "score": 33
+        "score": 20
       },
       {
         "text": "telur",
-        "score": 25
+        "score": 17
       },
       {
         "text": "cokelat",
-        "score": 22
+        "score": 14
       },
       {
         "text": "selai",
-        "score": 18
-      },
-      {
-        "text": "keju",
-        "score": 13
-      },
-      {
-        "text": "sosis",
         "score": 10
       },
       {
+        "text": "keju",
+        "score": 7
+      },
+      {
+        "text": "sosis",
+        "score": 4
+      },
+      {
         "text": "daging ham",
-        "score": 9
+        "score": 3
       },
       {
         "text": "susu",
@@ -4959,23 +4971,27 @@
     ]
   },
   {
-    "question": "Tokoh kartun jepang?",
+    "question": "Kartun jepang?",
     "answers": [
       {
         "text": "doraemon",
-        "score": 33
+        "score": 43
       },
       {
-        "text": "sinchan",
-        "score": 32
+        "text": "crayon shin-chan",
+        "score": 24
       },
       {
-        "text": "kenji",
-        "score": 29
+        "text": "captain tsubasa",
+        "score": 17
+      },
+      {
+        "text": "detective conan",
+        "score": 10
       },
       {
         "text": "sailor moon",
-        "score": 15
+        "score": 6
       }
     ]
   },
@@ -5000,7 +5016,7 @@
       },
       {
         "text": "samudera",
-        "score": 10
+        "score": 6
       }
     ]
   },
@@ -5009,23 +5025,23 @@
     "answers": [
       {
         "text": "manis",
-        "score": 26
+        "score": 30
       },
       {
         "text": "cokelat",
-        "score": 20
+        "score": 25
       },
       {
         "text": "kopi",
-        "score": 15
+        "score": 21
       },
       {
         "text": "stroberi",
-        "score": 10
+        "score": 13
       },
       {
         "text": "moka",
-        "score": 4
+        "score": 8
       },
       {
         "text": "pisang",
@@ -5038,27 +5054,27 @@
     "answers": [
       {
         "text": "raja",
-        "score": 36
+        "score": 35
       },
       {
         "text": "ambon",
-        "score": 29
+        "score": 23
       },
       {
         "text": "sepatu",
-        "score": 24
+        "score": 17
       },
       {
         "text": "tanduk",
-        "score": 19
+        "score": 10
       },
       {
         "text": "mas",
-        "score": 14
+        "score": 8
       },
       {
         "text": "molen",
-        "score": 9
+        "score": 7
       }
     ]
   },
@@ -5067,23 +5083,23 @@
     "answers": [
       {
         "text": "air putih",
-        "score": 35
+        "score": 42
       },
       {
         "text": "teh hangat",
-        "score": 27
+        "score": 29
       },
       {
         "text": "es kelapa muda",
-        "score": 21
+        "score": 15
       },
       {
         "text": "gorengan",
-        "score": 13
+        "score": 10
       },
       {
         "text": "kolak",
-        "score": 9
+        "score": 4
       }
     ]
   },
@@ -5092,31 +5108,31 @@
     "answers": [
       {
         "text": "whiskey",
-        "score": 37
+        "score": 32
       },
       {
         "text": "wine",
-        "score": 26
+        "score": 20
       },
       {
         "text": "vodka",
-        "score": 22
+        "score": 16
       },
       {
         "text": "martini",
-        "score": 18
-      },
-      {
-        "text": "gin",
         "score": 13
       },
       {
+        "text": "gin",
+        "score": 9
+      },
+      {
         "text": "sake",
-        "score": 10
+        "score": 7
       },
       {
         "text": "soju",
-        "score": 8
+        "score": 3
       }
     ]
   },
@@ -5137,11 +5153,11 @@
       },
       {
         "text": "coto makassar",
-        "score": 15
+        "score": 10
       },
       {
         "text": "pisang ijo",
-        "score": 9
+        "score": 6
       }
     ]
   },
@@ -5154,7 +5170,7 @@
       },
       {
         "text": "belajar",
-        "score": 27
+        "score": 21
       },
       {
         "text": "mebaca buku",
@@ -5170,7 +5186,7 @@
       },
       {
         "text": "seks",
-        "score": 6
+        "score": 3
       }
     ]
   },
@@ -5179,23 +5195,23 @@
     "answers": [
       {
         "text": "belalai",
-        "score": 48
+        "score": 38
       },
       {
         "text": "gading",
-        "score": 34
+        "score": 29
       },
       {
         "text": "telinga lebar",
-        "score": 23
+        "score": 18
       },
       {
         "text": "besar",
-        "score": 19
+        "score": 8
       },
       {
         "text": "kulit tebal",
-        "score": 10
+        "score": 7
       }
     ]
   },
@@ -5204,27 +5220,27 @@
     "answers": [
       {
         "text": "ekonomi",
-        "score": 46
+        "score": 33
       },
       {
         "text": "psikolog",
-        "score": 35
+        "score": 21
       },
       {
         "text": "hukum",
-        "score": 29
+        "score": 20
       },
       {
         "text": "kesenian",
-        "score": 25
+        "score": 14
       },
       {
         "text": "desain",
-        "score": 18
+        "score": 8
       },
       {
         "text": "sastra",
-        "score": 9
+        "score": 4
       }
     ]
   },
@@ -5233,7 +5249,7 @@
     "answers": [
       {
         "text": "nasi",
-        "score": 43
+        "score": 32
       },
       {
         "text": "kentang",
@@ -5241,23 +5257,23 @@
       },
       {
         "text": "jagung",
-        "score": 22
+        "score": 17
       },
       {
         "text": "sagu",
-        "score": 14
-      },
-      {
-        "text": "mie",
         "score": 10
       },
       {
+        "text": "mie",
+        "score": 8
+      },
+      {
         "text": "sayur",
-        "score": 7
+        "score": 4
       },
       {
         "text": "roti",
-        "score": 5
+        "score": 3
       },
       {
         "text": "gandum",
@@ -5270,31 +5286,31 @@
     "answers": [
       {
         "text": "dal",
-        "score": 39
+        "score": 29
       },
       {
         "text": "alip",
-        "score": 32
+        "score": 25
       },
       {
         "text": "be",
-        "score": 22
+        "score": 18
       },
       {
         "text": "ehe",
-        "score": 15
+        "score": 16
       },
       {
         "text": "wawu",
-        "score": 12
+        "score": 5
       },
       {
         "text": "jimawal",
-        "score": 8
+        "score": 4
       },
       {
         "text": "jimakir",
-        "score": 7
+        "score": 3
       }
     ]
   },
@@ -5307,23 +5323,23 @@
       },
       {
         "text": "kuis",
-        "score": 28
-      },
-      {
-        "text": "telenovela",
         "score": 21
       },
       {
-        "text": "sinetron",
-        "score": 18
+        "text": "telenovela",
+        "score": 17
       },
       {
-        "text": "olahraga",
+        "text": "sinetron",
         "score": 14
       },
       {
+        "text": "olahraga",
+        "score": 10
+      },
+      {
         "text": "film seri",
-        "score": 8
+        "score": 4
       }
     ]
   },
@@ -5332,19 +5348,19 @@
     "answers": [
       {
         "text": "i-setan",
-        "score": 44
+        "score": 39
       },
       {
         "text": "takhasimaya",
-        "score": 36
+        "score": 31
       },
       {
         "text": "lucky plaza",
-        "score": 24
+        "score": 16
       },
       {
         "text": "tang plaza",
-        "score": 20
+        "score": 14
       }
     ]
   },
@@ -5378,15 +5394,15 @@
     "answers": [
       {
         "text": "bagus",
-        "score": 47
+        "score": 31
       },
       {
         "text": "keren",
-        "score": 35
+        "score": 26
       },
       {
         "text": "tegang",
-        "score": 23
+        "score": 19
       },
       {
         "text": "seru",
@@ -5394,7 +5410,7 @@
       },
       {
         "text": "biasa saja",
-        "score": 6
+        "score": 7
       },
       {
         "text": "jelek",
@@ -5407,56 +5423,56 @@
     "answers": [
       {
         "text": "crab",
-        "score": 42
+        "score": 32
       },
       {
         "text": "fish",
-        "score": 34
-      },
-      {
-        "text": "shark",
         "score": 27
       },
       {
-        "text": "sea lion",
+        "text": "shark",
         "score": 19
       },
       {
+        "text": "sea lion",
+        "score": 12
+      },
+      {
         "text": "dolphin",
-        "score": 13
+        "score": 6
       },
       {
         "text": "turtle",
-        "score": 7
+        "score": 4
       }
     ]
   },
   {
-    "question": "olahraga yang berbahaya?",
+    "question": "Olahraga yang berbahaya?",
     "answers": [
       {
         "text": "arung jeram",
-        "score": 29
+        "score": 34
       },
       {
         "text": "tinju",
-        "score": 26
-      },
-      {
-        "text": "balap mobil",
         "score": 23
       },
       {
+        "text": "balap mobil",
+        "score": 18
+      },
+      {
         "text": "balap motor",
-        "score": 21
+        "score": 13
       },
       {
         "text": "ski salju",
-        "score": 12
+        "score": 7
       },
       {
         "text": "panjat tebing",
-        "score": 7
+        "score": 5
       }
     ]
   },
@@ -5465,23 +5481,23 @@
     "answers": [
       {
         "text": "terkenal",
-        "score": 40
+        "score": 24
       },
       {
         "text": "masuk surga",
-        "score": 27
+        "score": 21
       },
       {
         "text": "santai membunuh",
-        "score": 22
-      },
-      {
-        "text": "makan gratis",
         "score": 19
       },
       {
+        "text": "makan gratis",
+        "score": 15
+      },
+      {
         "text": "selalu riang",
-        "score": 17
+        "score": 12
       },
       {
         "text": "ditakuti preman",
@@ -5489,7 +5505,7 @@
       },
       {
         "text": "pusat perhatian",
-        "score": 2
+        "score": 3
       }
     ]
   },
@@ -5498,27 +5514,27 @@
     "answers": [
       {
         "text": "psk",
-        "score": 41
+        "score": 36
       },
       {
         "text": "dj",
-        "score": 39
+        "score": 27
       },
       {
-        "text": "minuman",
-        "score": 32
+        "text": "minuman keras",
+        "score": 17
       },
       {
         "text": "lampu disko",
-        "score": 15
+        "score": 11
       },
       {
         "text": "gigolo",
-        "score": 9
+        "score": 5
       },
       {
         "text": "orang mabuk",
-        "score": 5
+        "score": 4
       }
     ]
   },
@@ -5527,23 +5543,23 @@
     "answers": [
       {
         "text": "nasi",
-        "score": 55
+        "score": 31
       },
       {
         "text": "roti",
-        "score": 41
-      },
-      {
-        "text": "kentang",
-        "score": 33
-      },
-      {
-        "text": "sagu",
         "score": 29
       },
       {
+        "text": "kentang",
+        "score": 20
+      },
+      {
+        "text": "sagu",
+        "score": 12
+      },
+      {
         "text": "jagung",
-        "score": 26
+        "score": 8
       }
     ]
   },
@@ -5552,27 +5568,27 @@
     "answers": [
       {
         "text": "ubi goreng",
-        "score": 39
+        "score": 30
       },
       {
         "text": "tahu",
-        "score": 32
+        "score": 22
       },
       {
         "text": "tempe",
-        "score": 26
+        "score": 19
       },
       {
         "text": "pisang goreng",
-        "score": 18
+        "score": 13
       },
       {
         "text": "cireng",
-        "score": 14
+        "score": 10
       },
       {
         "text": "bakwan",
-        "score": 11
+        "score": 6
       }
     ]
   },
@@ -5581,15 +5597,15 @@
     "answers": [
       {
         "text": "rnb",
-        "score": 33
+        "score": 41
       },
       {
         "text": "pop",
-        "score": 24
+        "score": 28
       },
       {
         "text": "rock",
-        "score": 15
+        "score": 17
       },
       {
         "text": "house music",
@@ -5602,19 +5618,19 @@
     ]
   },
   {
-    "question": "Yang berhubungan dgn club malam / diskotik?",
+    "question": "Yang berhubungan dengan club malam / diskotik?",
     "answers": [
       {
         "text": "razia",
-        "score": 43
+        "score": 27
       },
       {
         "text": "narkoba",
-        "score": 36
+        "score": 23
       },
       {
         "text": "minuman keras",
-        "score": 29
+        "score": 21
       },
       {
         "text": "orang mabuk",
@@ -5622,36 +5638,36 @@
       },
       {
         "text": "dj",
-        "score": 4
+        "score": 8
       },
       {
         "text": "dugem",
-        "score": 3
+        "score": 6
       },
       {
         "text": "jablai",
-        "score": 2
+        "score": 3
       }
     ]
   },
   {
-    "question": "jenis televisi?",
+    "question": "Merk televisi?",
     "answers": [
       {
         "text": "politron",
-        "score": 36
-      },
-      {
-        "text": "sony",
-        "score": 28
-      },
-      {
-        "text": "panasonic",
         "score": 24
       },
       {
+        "text": "sony",
+        "score": 21
+      },
+      {
+        "text": "panasonic",
+        "score": 17
+      },
+      {
         "text": "toshiba",
-        "score": 18
+        "score": 13
       },
       {
         "text": "samsung",
@@ -5659,11 +5675,11 @@
       },
       {
         "text": "sanken",
-        "score": 6
+        "score": 8
       },
       {
         "text": "akira",
-        "score": 4
+        "score": 7
       }
     ]
   }
